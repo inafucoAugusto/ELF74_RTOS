@@ -1,0 +1,9 @@
+# ninja log v5
+6	56	6480698753820026	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/ewarm/Obj/startup_TM4C1294.o	bc17a29f7812c30d
+11	149	6480698754612305	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/ewarm/Obj/rtx_lib.o	23b9ca1e5dca654
+1	174	6480698754941418	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/ewarm/Obj/blinky.o	8bb4d0b63a31874d
+58	189	6480698755091013	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/ewarm/Obj/system_TM4C1294_TW.o	65ad56f694ace1a0
+8	193	6480698755170803	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/ewarm/Obj/driverleds.o	139980590a338cf9
+155	227	6480698755539816	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/ewarm/Obj/RTX_Config.o	8ba307e3bae89bb0
+232	748	6480698760403019	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/ewarm/Exe/blinky.out	3a9e4e4ee0d76d9b
+754	874	6480698762061034	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/ewarm/Exe/blinky.bin	f0925c334dbbd6d0

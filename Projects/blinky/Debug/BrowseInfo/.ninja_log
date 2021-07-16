@@ -1,0 +1,16 @@
+# ninja log v5
+4	98	6480697980000000	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/driverleds.xcl	b6fc069469b212ba
+7	103	6480697980000000	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/RTX_Config.xcl	9962c623efb35771
+5	111	6480697980000000	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/rtx_lib.xcl	aa613b44937e725c
+1	116	6480697980000000	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/blinky.xcl	bee02e17dcc58c51
+102	157	6480697980791061	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/driverleds.pbi	174b5dbc0b41946a
+120	164	6480697980860881	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/blinky.pbi	d567ea0ada37519
+166	180	6480697981020580	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/blinky_part0.pbi	f88659e31c4b954b
+115	188	6480697981100240	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/RTX_Config.pbi	8f9ee3ebf1b8a41a
+107	189	6480697980000000	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/system_TM4C1294_TW.xcl	98be5493d04385ff
+158	225	6480697981479220	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/rtx_lib.pbi	cdf375037aa2b900
+226	244	6480697981678691	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/blinky_part1.pbi	7b2ecce42e2724b7
+192	281	6480697982037728	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/system_TM4C1294_TW.pbi	bf6d77c84c488aff
+282	305	6480697982277343	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/blinky_part2.pbi	2627ad38ad6ad6d1
+308	342	6480697982646354	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/blinky.pbd	1998436684b74794
+345	973	6480697988820552	D:/Facul/Embarcados/bla/TM4C1294_RTOS_IAR9/Projects/blinky/Debug/BrowseInfo/blinky.pbw	2a41be7c0d680b8c
