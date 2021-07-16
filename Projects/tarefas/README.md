@@ -35,7 +35,7 @@ A thread1 apresenta um osDelay(N) como forma de controle temporal, sendo assim, 
 Já thread2 apresenta um osDelayUntil(N + M) como forma de controle. A maior diferença entre as duas formas de "parar" o processamento um um determinado tempo é que desta forma como esta sendo aplicada na segunda thread o valor pode ser dinâmico, como no exemplo N+M com M sendo uma variável de entrada que pode-se alterar, e na primeira o valor deve ser estático. Vale notar que devido ao modo como está sendo atribuído o valor de N (tick) no código.
 
 ####  2.5-2.7 Retorno no valor de OS_TICK_FREQ
-As alterações requisitadas estão dentro do diretório tarefas
+As alterações requisitadas estão dentro do diretório [tarefas](https://github.com/inafucoAugusto/ELF74_RTOS/blob/main/Projects/tarefas/src/tarefas.c).
 
 ## Referências
 - The Definitive Guide to ARM® Cortex®-M3 and Cortex®-M4 Processors, Third Edition by Joseph Yiu
