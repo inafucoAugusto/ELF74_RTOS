@@ -1,19 +1,33 @@
 #include "system_tm4c1294.h" // CMSIS-Core
 #include "driverleds.h" // device drivers
 #include "cmsis_os2.h" // CMSIS-RTOS
-
+#include "driverbuttons.h""
 #define BUFFER_SIZE 8
 
 osThreadId_t produtor_id, consumidor_id;
 osSemaphoreId_t vazio_id, cheio_id;
 uint8_t buffer[BUFFER_SIZE];
+uint8_t global_index_i = 0;
+uint8_t global_count = 0;
+
+void GPIOJ_Handler(void){
+  osSemaphoreAcquire(vazio_id, 0);
+  ButtonIntClear(USW1);
+  buffer[global_index_i] = global_count;      // coloca no buffer
+  osSemaphoreRelease(cheio_id);
+  global_index_i++; // incrementa índice de colocação no buffer
+  if(global_index_i >= BUFFER_SIZE){
+      global_index_i = 0;
+  }
+  global_count++;
+  global_count &= 0x0F; // produz nova informação
+}
 
 void produtor(void *arg){
   uint8_t index_i = 0, count = 0;
-  
   while(1){
     osSemaphoreAcquire(vazio_id, osWaitForever); // há espaço disponível?
-    buffer[index_i] = count; // coloca no buffer
+    buffer[index_i] = count;      // coloca no buffer
     osSemaphoreRelease(cheio_id); // sinaliza um espaço a menos
     
     index_i++; // incrementa índice de colocação no buffer
@@ -31,13 +45,11 @@ void consumidor(void *arg){
   
   while(1){
     osSemaphoreAcquire(cheio_id, osWaitForever); // há dado disponível?
-    state = buffer[index_o]; // retira do buffer
-    osSemaphoreRelease(vazio_id); // sinaliza um espaço a mais
-    
+    state = buffer[index_o];                     // retira do buffer
+    osSemaphoreRelease(vazio_id);                // sinaliza um espaço a mais
     index_o++;
-    if(index_o >= BUFFER_SIZE) // incrementa índice de retirada do buffer
+    if(index_o >= BUFFER_SIZE)                   // incrementa índice de retirada do buffer
       index_o = 0;
-    
     LEDWrite(LED4 | LED3 | LED2 | LED1, state); // apresenta informação consumida
     osDelay(500);
   } // while
@@ -46,17 +58,26 @@ void consumidor(void *arg){
 void main(void){
   SystemInit();
   LEDInit(LED4 | LED3 | LED2 | LED1);
+  
+  ButtonInit(USW1);
+  ButtonIntEnable(USW1);
+  ButtonInit(USW2);
+  ButtonIntEnable(USW2);
+  
+  SysTickPeriodSet(12000000); // f = 1Hz para clock = 24MHz
+  SysTickIntEnable();
+  SysTickEnable();
 
   osKernelInitialize();
 
-  produtor_id = osThreadNew(produtor, NULL, NULL);
+  // produtor_id = osThreadNew(produtor, NULL, NULL);
   consumidor_id = osThreadNew(consumidor, NULL, NULL);
 
   vazio_id = osSemaphoreNew(BUFFER_SIZE, BUFFER_SIZE, NULL); // espaços disponíveis = BUFFER_SIZE
-  cheio_id = osSemaphoreNew(BUFFER_SIZE, 0, NULL); // espaços ocupados = 0
+  cheio_id = osSemaphoreNew(BUFFER_SIZE, 0, NULL);           // espaços ocupados = 0
   
   if(osKernelGetState() == osKernelReady)
     osKernelStart();
 
-  while(1);
+  while(1){};
 } // main

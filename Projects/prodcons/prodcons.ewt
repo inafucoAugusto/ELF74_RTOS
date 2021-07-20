@@ -1421,6 +1421,12 @@
         </settings>
     </configuration>
     <file>
+        <name>$PROJ_DIR$\src\driverbuttons.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\src\driverbuttons.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\..\drivers\driverleds.c</name>
     </file>
     <file>
