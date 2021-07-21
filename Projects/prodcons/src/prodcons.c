@@ -10,17 +10,30 @@ uint8_t buffer[BUFFER_SIZE];
 uint8_t global_index_i = 0;
 uint8_t global_count = 0;
 
+//osStatus_t {
+//  osOK = 0,
+//  osError = -1,
+//  osErrorTimeout = -2,
+//  osErrorResource = -3,
+//  osErrorParameter = -4,
+//  osErrorNoMemory = -5,
+//  osErrorISR = -6,
+//  osStatusReserved = 0x7FFFFFFF
+//}
+
 void GPIOJ_Handler(void){
-  osSemaphoreAcquire(vazio_id, 0);
   ButtonIntClear(USW1);
-  buffer[global_index_i] = global_count;      // coloca no buffer
-  osSemaphoreRelease(cheio_id);
-  global_index_i++; // incrementa índice de colocação no buffer
-  if(global_index_i >= BUFFER_SIZE){
-      global_index_i = 0;
+  if(osSemaphoreAcquire(vazio_id, 0) == osOK){
+    //osSemaphoreAcquire(vazio_id, 0);
+    buffer[global_index_i] = global_count;      // coloca no buffer
+    global_index_i++; // incrementa índice de colocação no buffer
+    if(global_index_i >= BUFFER_SIZE){
+        global_index_i = 0;
+    }
+    global_count++;
+    global_count &= 0x0F; // produz nova informação
+    osSemaphoreRelease(cheio_id);
   }
-  global_count++;
-  global_count &= 0x0F; // produz nova informação
 }
 
 void produtor(void *arg){
@@ -42,7 +55,6 @@ void produtor(void *arg){
 
 void consumidor(void *arg){
   uint8_t index_o = 0, state;
-  
   while(1){
     osSemaphoreAcquire(cheio_id, osWaitForever); // há dado disponível?
     state = buffer[index_o];                     // retira do buffer

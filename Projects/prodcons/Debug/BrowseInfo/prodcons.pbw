@@ -18379,7 +18379,7 @@
     "display": "void GPIOJ_Handler(void)",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "24",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
     "name": "GPIOJ_Handler",
@@ -18393,7 +18393,7 @@
     "display": "void produtor(void *)",
     "location": {
       "column": "6",
-      "line": "26",
+      "line": "39",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
     "name": "produtor",
@@ -18401,13 +18401,13 @@
     "scope": null
   },
   {
-    "ID": "c:prodcons.c@773@F@produtor@index_i",
+    "ID": "c:prodcons.c@1068@F@produtor@index_i",
     "What": "Variable",
     "defdec": "Def",
     "display": "index_i",
     "location": {
       "column": "11",
-      "line": "27",
+      "line": "40",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
     "name": "index_i",
@@ -18415,13 +18415,13 @@
     "scope": null
   },
   {
-    "ID": "c:prodcons.c@773@F@produtor@count",
+    "ID": "c:prodcons.c@1068@F@produtor@count",
     "What": "Variable",
     "defdec": "Dec",
     "display": "count",
     "location": {
       "column": "24",
-      "line": "27",
+      "line": "40",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
     "name": "count",
@@ -18435,7 +18435,7 @@
     "display": "void consumidor(void *)",
     "location": {
       "column": "6",
-      "line": "43",
+      "line": "56",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
     "name": "consumidor",
@@ -18443,13 +18443,13 @@
     "scope": null
   },
   {
-    "ID": "c:prodcons.c@1279@F@consumidor@index_o",
+    "ID": "c:prodcons.c@1574@F@consumidor@index_o",
     "What": "Variable",
     "defdec": "Def",
     "display": "index_o",
     "location": {
       "column": "11",
-      "line": "44",
+      "line": "57",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
     "name": "index_o",
@@ -18457,13 +18457,13 @@
     "scope": null
   },
   {
-    "ID": "c:prodcons.c@1279@F@consumidor@state",
+    "ID": "c:prodcons.c@1574@F@consumidor@state",
     "What": "Variable",
     "defdec": "Dec",
     "display": "state",
     "location": {
       "column": "24",
-      "line": "44",
+      "line": "57",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
     "name": "state",
@@ -18477,7 +18477,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "58",
+      "line": "70",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
     "name": "main",
