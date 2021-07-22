@@ -16,7 +16,7 @@ Hugo Vieira Neto
 #### 5.6 ISR com Task
 Dentro do projeto  [prodcons](https://github.com/inafucoAugusto/ELF74_RTOS/blob/main/Projects/prodcons/src/prodcons.c) foi adiciona uma ISR ao script. 
 Após a alteração o consumidor consegue somente acessar o buffer se a ISR liberar o semáforo osSemaphoreRelease(cheio_id).
-O maior ponto de destaque é o que acontece logo no início da ISR. Como uma interrupção não pode ficar "se enrolando" - deve ser executada o mais rápida possível - foi utilizada a função osSemaphoreAcquire(vazio_id, 0). Essa função tenta "pegar", sem causar nenhum tipo de delay ou retry, e o retorno dela é baseado na enum:
+O maior ponto de destaque é o que acontece logo no início da ISR. Como uma interrupção não pode ficar "se enrolando" - deve ser executada o mais rápida possível - foi utilizada a função osSemaphoreAcquire(vazio_id, 0). Essa função tenta "pegar" o semáforo, sem causar nenhum tipo de delay ou retry, e o retorno dela é baseado na enum:
 
     osStatus_t {
       osOK = 0,
