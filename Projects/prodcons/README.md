@@ -29,7 +29,7 @@ O maior ponto de destaque é o que acontece logo no início da ISR. Como uma int
       osStatusReserved = 0x7FFFFFFF
     }
 
-Logo, se não for possível a aquisição do sinal do semáforo o sinal do semáforo  cheio_id não será liberado para a task consumidor. 
+Logo, se não for possível a aquisição do sinal do semáforo vazio_id o sinal do semáforo cheio_id não será liberado pela ISR e task consumidor não conseguirá prosseguir. 
 
 ## Referências
 - The Definitive Guide to ARM® Cortex®-M3 and Cortex®-M4 Processors, Third Edition by Joseph Yiu
