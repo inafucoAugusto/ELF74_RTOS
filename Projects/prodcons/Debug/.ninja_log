@@ -83,3 +83,16 @@
 1	135	6485987610617746	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/prodcons.o	a041304e741f5f16
 139	199	6485987611236098	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Exe/prodcons.out	2ef88ec28fd6c5fd
 206	212	6485987611435578	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Exe/prodcons.bin	1463df33503f1393
+1	315	6486139551903864	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/startup_TM4C1294.o	ad76ed8210991aeb
+311	489	6486139554187759	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/prodcons.o	a041304e741f5f16
+317	587	6486139555196050	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/RTX_Config.o	4e6294a9a729d6
+494	649	6486139555765427	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/rtx_lib.o	b6e9ad820b6903fb
+216	655	6486139555795347	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/driverbuttons.o	f1755c82a3368443
+309	670	6486139555885127	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/driverleds.o	db64955e2bf1dbf8
+593	761	6486139556911415	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/system_TM4C1294_TW.o	bf5e9876f4c49c
+767	1106	6486139560398682	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Exe/prodcons.out	9ac8c1d4176c2288
+767	1106	6486139560398682	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/List/prodcons.map	9ac8c1d4176c2288
+1113	1183	6486139561206526	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Exe/prodcons.bin	1463df33503f1393
+1	167	6486193450919023	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/prodcons.o	a041304e741f5f16
+172	250	6486193451737091	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Exe/prodcons.out	2ef88ec28fd6c5fd
+258	269	6486193451999338	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Exe/prodcons.bin	1463df33503f1393

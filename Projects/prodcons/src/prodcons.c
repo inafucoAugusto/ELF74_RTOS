@@ -76,9 +76,9 @@ void main(void){
   ButtonInit(USW2);
   ButtonIntEnable(USW2);
   
-  SysTickPeriodSet(12000000); // f = 1Hz para clock = 24MHz
-  SysTickIntEnable();
-  SysTickEnable();
+  //SysTickPeriodSet(12000000); // f = 1Hz para clock = 24MHz
+  //SysTickIntEnable();
+  //SysTickEnable();
 
   osKernelInitialize();
 
