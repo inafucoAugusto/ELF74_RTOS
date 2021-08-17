@@ -4,6 +4,9 @@
         <path>$WS_DIR$\Projects\blinky\blinky.ewp</path>
     </project>
     <project>
+        <path>$WS_DIR$\Projects\desafio\desafio.ewp</path>
+    </project>
+    <project>
         <path>$WS_DIR$\TivaWare_C_Series-2.1.4.178\driverlib\driverlib.ewp</path>
     </project>
     <project>

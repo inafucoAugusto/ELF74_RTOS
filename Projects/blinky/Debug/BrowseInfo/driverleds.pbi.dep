@@ -1,5 +1,5 @@
-D:\Facul\Embarcados\bla\TM4C1294_RTOS_IAR9\Projects\blinky\Debug\BrowseInfo\driverleds.pbi: \
-  D:\Facul\Embarcados\bla\TM4C1294_RTOS_IAR9\Projects\drivers\driverleds.c \
+D:\Facul\Embarcados\ELF74_RTOS\Projects\blinky\Debug\BrowseInfo\driverleds.pbi: \
+  D:\Facul\Embarcados\ELF74_RTOS\Projects\drivers\driverleds.c \
   D:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdbool.h \
   D:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
   D:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
@@ -7,7 +7,7 @@ D:\Facul\Embarcados\bla\TM4C1294_RTOS_IAR9\Projects\blinky\Debug\BrowseInfo\driv
   D:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
   D:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Normal.h \
   D:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
-  D:\Facul\Embarcados\bla\TM4C1294_RTOS_IAR9\Projects\blinky\..\..\TivaWare_C_Series-2.1.4.178\inc\hw_memmap.h \
-  D:\Facul\Embarcados\bla\TM4C1294_RTOS_IAR9\Projects\blinky\..\..\TivaWare_C_Series-2.1.4.178\driverlib\sysctl.h \
-  D:\Facul\Embarcados\bla\TM4C1294_RTOS_IAR9\Projects\blinky\..\..\TivaWare_C_Series-2.1.4.178\driverlib\gpio.h \
-  D:\Facul\Embarcados\bla\TM4C1294_RTOS_IAR9\Projects\drivers\driverleds.h
+  D:\Facul\Embarcados\ELF74_RTOS\Projects\blinky\..\..\TivaWare_C_Series-2.1.4.178\inc\hw_memmap.h \
+  D:\Facul\Embarcados\ELF74_RTOS\Projects\blinky\..\..\TivaWare_C_Series-2.1.4.178\driverlib\sysctl.h \
+  D:\Facul\Embarcados\ELF74_RTOS\Projects\blinky\..\..\TivaWare_C_Series-2.1.4.178\driverlib\gpio.h \
+  D:\Facul\Embarcados\ELF74_RTOS\Projects\drivers\driverleds.h

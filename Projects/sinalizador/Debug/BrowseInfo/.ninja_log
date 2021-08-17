@@ -1,0 +1,16 @@
+# ninja log v5
+0	91	6488480980000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/RTX_Config.xcl	597fa2c861b3e87
+8	103	6488480980000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/sinalizador.xcl	12a9503369370dca
+4	109	6488480980000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/driverleds.xcl	3d8ad86b52979c27
+6	139	6488480980000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/rtx_lib.xcl	ca15b2db1b82ced4
+114	157	6488480985905167	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/driverleds.pbi	f23845e5ff5d0cfb
+96	165	6488480985994931	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/RTX_Config.pbi	756c295d26b72bbb
+167	184	6488480986174445	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/sinalizador_part0.pbi	9701482e9d925661
+107	191	6488480980000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/system_TM4C1294_TW.xcl	7266ae7b8d8b765e
+144	207	6488480986403833	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/rtx_lib.pbi	37e107f22a9b3a6d
+158	225	6488480986583356	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/sinalizador.pbi	3863816497667bce
+226	241	6488480986752898	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/sinalizador_part1.pbi	ca49ff8bf974cf8c
+194	267	6488480987012206	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/system_TM4C1294_TW.pbi	e63c7cf9a3a12223
+268	290	6488480987241592	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/sinalizador_part2.pbi	f5d4b0f38ac9bf5
+291	329	6488480987630561	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/sinalizador.pbd	4b45fd81929582e0
+1	635	6488481051058620	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/Debug/BrowseInfo/sinalizador.pbw	ccf54eaf488657a2

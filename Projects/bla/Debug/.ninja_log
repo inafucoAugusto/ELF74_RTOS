@@ -1,0 +1,13 @@
+# ninja log v5
+1	315	6486139551903864	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/startup_TM4C1294.o	ad76ed8210991aeb
+309	670	6486139555885127	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/driverleds.o	db64955e2bf1dbf8
+593	761	6486139556911415	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/system_TM4C1294_TW.o	bf5e9876f4c49c
+210	215	6487684531798094	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Exe/prodcons.bin	1463df33503f1393
+1	124	6487684530818811	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/prodcons.o	a041304e741f5f16
+317	587	6486139555196050	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/RTX_Config.o	4e6294a9a729d6
+494	649	6486139555765427	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/rtx_lib.o	b6e9ad820b6903fb
+130	202	6487684531578117	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Exe/prodcons.out	2ef88ec28fd6c5fd
+216	655	6486139555795347	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/Obj/driverbuttons.o	f1755c82a3368443
+767	1106	6486139560398682	D:/Facul/Embarcados/ELF74_RTOS/Projects/prodcons/ewarm/List/prodcons.map	9ac8c1d4176c2288
+76	98	6488513037926094	D:/Facul/Embarcados/ELF74_RTOS/Projects/bla/Debug/Obj/startup_TM4C1294.o	993cb8508ddebcac
+76	98	6488513037926094	D:/Facul/Embarcados/ELF74_RTOS/Projects/bla/ewarm/Obj/startup_TM4C1294.o	993cb8508ddebcac

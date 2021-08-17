@@ -1,0 +1,16 @@
+# ninja log v5
+46	193	6488479590000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/rtx_lib.xcl	70829082bd640194
+43	198	6488479590000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/temporizador.xcl	87ab3a821ae4a1d7
+41	233	6488479590000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/driverleds.xcl	857fdd8c3d35fc69
+1	242	6488479590000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/RTX_Config.xcl	e198b91b53c5e6d9
+196	333	6488479590000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/system_TM4C1294_TW.xcl	5599ff29adf95f8d
+339	522	6488479596884576	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/temporizador.pbi	64f0cbde313361c6
+241	526	6488479596894543	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/driverleds.pbi	91aa8ba3083afd9c
+247	558	6488479597044146	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/RTX_Config.pbi	42a3711343fbeb66
+202	562	6488479597103982	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/rtx_lib.pbi	e8aabe41dfe435e3
+527	564	6488479597323397	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/temporizador_part2.pbi	d5c5d9152eb5285f
+560	577	6488479597443075	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/temporizador_part0.pbi	5bbb5513452da8a5
+524	594	6488479597612618	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/system_TM4C1294_TW.pbi	c6a27c9597069e9c
+597	626	6488479597931771	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/temporizador_part1.pbi	390ae759edbf41c9
+629	661	6488479598291057	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/temporizador.pbd	97704eb300d6d727
+1	1502	6488479669781945	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/Debug/BrowseInfo/temporizador.pbw	e957ccaac4ccb6b4

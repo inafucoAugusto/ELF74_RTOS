@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <settings>
     <DebugChecksum>
-        <Checksum>2423912850</Checksum>
+        <Checksum>3531015500</Checksum>
     </DebugChecksum>
     <LmiFtdiDriver>
         <LMIFTDIserialNo>0F00CA53</LMIFTDIserialNo>
         <LMIFTDIfoundProbes />
-        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
-        <CStepIntDis>_ 0</CStepIntDis>
         <LmiFtdiResetStyle>0</LmiFtdiResetStyle>
         <LmiFtdiResetStrategy>0</LmiFtdiResetStrategy>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+        <CStepIntDis>_ 0</CStepIntDis>
     </LmiFtdiDriver>
     <PlDriver>
         <FirstRun>0</FirstRun>

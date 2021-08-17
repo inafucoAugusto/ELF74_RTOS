@@ -18261,227 +18261,215 @@
     "scope": null
   },
   {
-    "ID": "c:prodcons.c@162@macro@BUFFER_SIZE",
+    "ID": "c:stddef.h@100@macro@_STDDEF",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "BUFFER_SIZE",
+    "display": "_STDDEF",
     "location": {
       "column": "9",
-      "line": "5",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
+      "line": "4",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
     },
-    "name": "BUFFER_SIZE",
-    "origin": "project_file",
+    "name": "_STDDEF",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@produtor_id",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "produtor_id",
-    "location": {
-      "column": "14",
-      "line": "7",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
-    },
-    "name": "produtor_id",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@consumidor_id",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "consumidor_id",
-    "location": {
-      "column": "27",
-      "line": "7",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
-    },
-    "name": "consumidor_id",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@vazio_id",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "vazio_id",
-    "location": {
-      "column": "17",
-      "line": "8",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
-    },
-    "name": "vazio_id",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@cheio_id",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "cheio_id",
-    "location": {
-      "column": "27",
-      "line": "8",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
-    },
-    "name": "cheio_id",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@buffer",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "buffer",
-    "location": {
-      "column": "9",
-      "line": "9",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
-    },
-    "name": "buffer",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@global_index_i",
-    "What": "Variable",
+    "ID": "c:stddef.h@272@macro@NULL",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "global_index_i",
-    "location": {
-      "column": "9",
-      "line": "10",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
-    },
-    "name": "global_index_i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@global_count",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "global_count",
-    "location": {
-      "column": "9",
-      "line": "11",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
-    },
-    "name": "global_count",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIOJ_Handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIOJ_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "24",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
-    },
-    "name": "GPIOJ_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@produtor",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void produtor(void *)",
-    "location": {
-      "column": "6",
-      "line": "39",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
-    },
-    "name": "produtor",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:prodcons.c@1068@F@produtor@index_i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "index_i",
+    "display": "NULL",
     "location": {
       "column": "11",
-      "line": "40",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
+      "line": "16",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
     },
-    "name": "index_i",
-    "origin": "project_file",
+    "name": "NULL",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:prodcons.c@1068@F@produtor@count",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "count",
-    "location": {
-      "column": "24",
-      "line": "40",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
-    },
-    "name": "count",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@consumidor",
-    "What": "Function",
+    "ID": "c:stddef.h@324@macro@offsetof",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "void consumidor(void *)",
-    "location": {
-      "column": "6",
-      "line": "56",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
-    },
-    "name": "consumidor",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:prodcons.c@1574@F@consumidor@index_o",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "index_o",
+    "display": "offsetof",
     "location": {
       "column": "11",
-      "line": "57",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
+      "line": "20",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
     },
-    "name": "index_o",
-    "origin": "project_file",
+    "name": "offsetof",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:prodcons.c@1574@F@consumidor@state",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "state",
-    "location": {
-      "column": "24",
-      "line": "57",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
-    },
-    "name": "state",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@main",
-    "What": "Function",
+    "ID": "c:stddef.h@450@macro@_PTRDIFF_T",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "void main(void)",
+    "display": "_PTRDIFF_T",
     "location": {
-      "column": "6",
-      "line": "70",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
+      "column": "13",
+      "line": "25",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
     },
-    "name": "main",
-    "origin": "project_file",
+    "name": "_PTRDIFF_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stddef.h@474@macro@_STD_USING_PTRDIFF_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STD_USING_PTRDIFF_T",
+    "location": {
+      "column": "13",
+      "line": "26",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+    },
+    "name": "_STD_USING_PTRDIFF_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stddef.h@T@ptrdiff_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "int",
+    "location": {
+      "column": "32",
+      "line": "27",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+    },
+    "name": "ptrdiff_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stddef.h@578@macro@_WCHART",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_WCHART",
+    "location": {
+      "column": "13",
+      "line": "31",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+    },
+    "name": "_WCHART",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stddef.h@T@wchar_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "_Wchart",
+    "location": {
+      "column": "21",
+      "line": "32",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+    },
+    "name": "wchar_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stddef.h@813@macro@_MAX_ALIGN_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_MAX_ALIGN_T",
+    "location": {
+      "column": "13",
+      "line": "41",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+    },
+    "name": "_MAX_ALIGN_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@UA@_Max_align_t",
+    "What": "Union",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "13",
+      "line": "42",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+    },
+    "members": [
+      {
+        "ID": "c:@UA@_Max_align_t@FI@_ll",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_ll",
+        "location": {
+          "column": "17",
+          "line": "44",
+          "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+        },
+        "name": "_ll",
+        "origin": "system_include",
+        "scope": "_anonymous_stddef_h_42_13"
+      },
+      {
+        "ID": "c:@UA@_Max_align_t@FI@_ld",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_ld",
+        "location": {
+          "column": "19",
+          "line": "45",
+          "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+        },
+        "name": "_ld",
+        "origin": "system_include",
+        "scope": "_anonymous_stddef_h_42_13"
+      },
+      {
+        "ID": "c:@UA@_Max_align_t@FI@_vp",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_vp",
+        "location": {
+          "column": "13",
+          "line": "46",
+          "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+        },
+        "name": "_vp",
+        "origin": "system_include",
+        "scope": "_anonymous_stddef_h_42_13"
+      }
+    ],
+    "name": "",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@_Max_align_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "union _Max_align_t",
+    "location": {
+      "column": "7",
+      "line": "47",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+    },
+    "name": "_Max_align_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stddef.h@T@max_align_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "_Max_align_t",
+    "location": {
+      "column": "26",
+      "line": "48",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+    },
+    "name": "max_align_t",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -32440,215 +32428,227 @@
     "scope": null
   },
   {
-    "ID": "c:stddef.h@100@macro@_STDDEF",
+    "ID": "c:prodcons.c@161@macro@BUFFER_SIZE",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_STDDEF",
+    "display": "BUFFER_SIZE",
     "location": {
       "column": "9",
-      "line": "4",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+      "line": "5",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
-    "name": "_STDDEF",
-    "origin": "system_include",
+    "name": "BUFFER_SIZE",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:stddef.h@272@macro@NULL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "NULL",
+    "ID": "c:@produtor_id",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "produtor_id",
     "location": {
-      "column": "11",
-      "line": "16",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+      "column": "14",
+      "line": "7",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
-    "name": "NULL",
-    "origin": "system_include",
+    "name": "produtor_id",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:stddef.h@324@macro@offsetof",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "offsetof",
+    "ID": "c:@consumidor_id",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "consumidor_id",
     "location": {
-      "column": "11",
-      "line": "20",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+      "column": "27",
+      "line": "7",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
-    "name": "offsetof",
-    "origin": "system_include",
+    "name": "consumidor_id",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:stddef.h@450@macro@_PTRDIFF_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_PTRDIFF_T",
+    "ID": "c:@vazio_id",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "vazio_id",
     "location": {
-      "column": "13",
+      "column": "17",
+      "line": "8",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
+    },
+    "name": "vazio_id",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@cheio_id",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "cheio_id",
+    "location": {
+      "column": "27",
+      "line": "8",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
+    },
+    "name": "cheio_id",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@buffer",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "buffer",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
+    },
+    "name": "buffer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@global_index_i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "global_index_i",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
+    },
+    "name": "global_index_i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@global_count",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "global_count",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
+    },
+    "name": "global_count",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIOJ_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIOJ_Handler(void)",
+    "location": {
+      "column": "6",
       "line": "25",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
-    "name": "_PTRDIFF_T",
-    "origin": "system_include",
+    "name": "GPIOJ_Handler",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:stddef.h@474@macro@_STD_USING_PTRDIFF_T",
-    "What": "MacroDef",
+    "ID": "c:@F@produtor",
+    "What": "Function",
     "defdec": "Def",
-    "display": "_STD_USING_PTRDIFF_T",
+    "display": "void produtor(void *)",
     "location": {
-      "column": "13",
-      "line": "26",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+      "column": "6",
+      "line": "40",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
-    "name": "_STD_USING_PTRDIFF_T",
-    "origin": "system_include",
+    "name": "produtor",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:stddef.h@T@ptrdiff_t",
-    "What": "Typedef",
+    "ID": "c:prodcons.c@1069@F@produtor@index_i",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "int",
+    "display": "index_i",
     "location": {
-      "column": "32",
-      "line": "27",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
-    },
-    "name": "ptrdiff_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stddef.h@578@macro@_WCHART",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_WCHART",
-    "location": {
-      "column": "13",
-      "line": "31",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
-    },
-    "name": "_WCHART",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stddef.h@T@wchar_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "_Wchart",
-    "location": {
-      "column": "21",
-      "line": "32",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
-    },
-    "name": "wchar_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stddef.h@813@macro@_MAX_ALIGN_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_MAX_ALIGN_T",
-    "location": {
-      "column": "13",
+      "column": "11",
       "line": "41",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
-    "name": "_MAX_ALIGN_T",
-    "origin": "system_include",
+    "name": "index_i",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@UA@_Max_align_t",
-    "What": "Union",
-    "defdec": "Def",
-    "display": "",
+    "ID": "c:prodcons.c@1069@F@produtor@count",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "count",
     "location": {
-      "column": "13",
-      "line": "42",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+      "column": "24",
+      "line": "41",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
-    "members": [
-      {
-        "ID": "c:@UA@_Max_align_t@FI@_ll",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_ll",
-        "location": {
-          "column": "17",
-          "line": "44",
-          "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
-        },
-        "name": "_ll",
-        "origin": "system_include",
-        "scope": "_anonymous_stddef_h_42_13"
-      },
-      {
-        "ID": "c:@UA@_Max_align_t@FI@_ld",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_ld",
-        "location": {
-          "column": "19",
-          "line": "45",
-          "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
-        },
-        "name": "_ld",
-        "origin": "system_include",
-        "scope": "_anonymous_stddef_h_42_13"
-      },
-      {
-        "ID": "c:@UA@_Max_align_t@FI@_vp",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "_vp",
-        "location": {
-          "column": "13",
-          "line": "46",
-          "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
-        },
-        "name": "_vp",
-        "origin": "system_include",
-        "scope": "_anonymous_stddef_h_42_13"
-      }
-    ],
-    "name": "",
-    "origin": "system_include",
+    "name": "count",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@T@_Max_align_t",
-    "What": "Typedef",
+    "ID": "c:@F@consumidor",
+    "What": "Function",
     "defdec": "Def",
-    "display": "union _Max_align_t",
+    "display": "void consumidor(void *)",
     "location": {
-      "column": "7",
-      "line": "47",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+      "column": "6",
+      "line": "57",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
-    "name": "_Max_align_t",
-    "origin": "system_include",
+    "name": "consumidor",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:stddef.h@T@max_align_t",
-    "What": "Typedef",
+    "ID": "c:prodcons.c@1575@F@consumidor@index_o",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "_Max_align_t",
+    "display": "index_o",
     "location": {
-      "column": "26",
-      "line": "48",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stddef.h"
+      "column": "11",
+      "line": "58",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
     },
-    "name": "max_align_t",
-    "origin": "system_include",
+    "name": "index_o",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:prodcons.c@1575@F@consumidor@state",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "state",
+    "location": {
+      "column": "24",
+      "line": "58",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
+    },
+    "name": "state",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "71",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\prodcons\\src\\prodcons.c"
+    },
+    "name": "main",
+    "origin": "project_file",
     "scope": null
   },
   {

@@ -1,7 +1,7 @@
 #include "system_tm4c1294.h" // CMSIS-Core
 #include "driverleds.h" // device drivers
 #include "cmsis_os2.h" // CMSIS-RTOS
-#include "driverbuttons.h""
+#include "driverbuttons.h"
 #define BUFFER_SIZE 8
 
 osThreadId_t produtor_id, consumidor_id;
@@ -9,6 +9,7 @@ osSemaphoreId_t vazio_id, cheio_id;
 uint8_t buffer[BUFFER_SIZE];
 uint8_t global_index_i = 0;
 uint8_t global_count = 0;
+
 
 //osStatus_t {
 //  osOK = 0,
@@ -82,8 +83,9 @@ void main(void){
 
   osKernelInitialize();
 
-  // produtor_id = osThreadNew(produtor, NULL, NULL);
   consumidor_id = osThreadNew(consumidor, NULL, NULL);
+  produtor_id = osThreadNew(produtor, NULL, NULL);
+  
 
   vazio_id = osSemaphoreNew(BUFFER_SIZE, BUFFER_SIZE, NULL); // espaços disponíveis = BUFFER_SIZE
   cheio_id = osSemaphoreNew(BUFFER_SIZE, 0, NULL);           // espaços ocupados = 0

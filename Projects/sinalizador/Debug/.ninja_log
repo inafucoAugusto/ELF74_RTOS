@@ -1,0 +1,9 @@
+# ninja log v5
+5	35	6488480995157741	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/ewarm/Obj/startup_TM4C1294.o	d0fb6f94bde50daf
+3	85	6488480995556728	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/ewarm/Obj/RTX_Config.o	e74f053188716fa1
+9	102	6488480995686321	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/ewarm/Obj/rtx_lib.o	4b8d9edea1c96252
+38	133	6488480996075314	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/ewarm/Obj/system_TM4C1294_TW.o	e4d18c6dca46e2c0
+0	145	6488480996192009	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/ewarm/Obj/driverleds.o	5a95cb317564b057
+89	200	6488480996750511	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/ewarm/Obj/sinalizador.o	905bcbe649f79dd7
+204	268	6488480997403817	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/ewarm/Exe/sinalizador.out	7c3986b44fbb0e2d
+283	288	6488480997683072	D:/Facul/Embarcados/ELF74_RTOS/Projects/sinalizador/ewarm/Exe/sinalizador.bin	588e537573fb023d

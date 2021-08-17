@@ -1,0 +1,24 @@
+# ninja log v5
+4	119	6489566130000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/driverbuttons.xcl	252bddb40b9c58b2
+9	107	6489566130000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/rtx_lib.xcl	d1a0111a3bc41eee
+123	166	6489566137852011	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/driverbuttons.pbi	57cc9002b98b1284
+105	200	6489566130000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/RTX_Config.xcl	d61a60fd25b38584
+0	28	6488508218251814	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/prodcons.pbi	6fbcba39d2902caf
+1	34	6508980931678180	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/desafio.pbi	e3ee437bbc012360
+1	153	6488506130000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/prodcons.xcl	31337207679361bb
+204	400	6489566140198942	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/RTX_Config.pbi	8163cb4b9bcea7b1
+160	223	6489566138347643	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/rtx_lib.pbi	b5a7d6a6b43f6254
+36	49	6508980931837753	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/desafio_part0.pbi	ea0928f332844f7f
+7	113	6489566130000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/system_TM4C1294_TW.xcl	bb77dd7bfed39ace
+35	51	6489611106855037	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/desafio_part1.pbi	a549a2b31005c607
+185	273	6489566138850194	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/system_TM4C1294_TW.pbi	85d9989bc2211c8e
+275	304	6489566139251143	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/desafio_part2.pbi	735ebaa95256b21d
+51	90	6508980932246664	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/desafio.pbd	8de7a5f1a9debfa5
+94	760	6508980938789180	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/desafio.pbw	d7e65e9c29fec51c
+1	101	6489566130000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/desafio.xcl	b62151a304f744b1
+111	206	6489566130000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/driverleds.xcl	1510efe1872069c2
+1	33	6489611106655857	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/driverleds.pbi	62baa2bdc569f288
+1	33	6508981191524198	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/desafio.pbi	e3ee437bbc012360
+34	47	6508981191683509	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/desafio_part0.pbi	ea0928f332844f7f
+50	89	6508981192102688	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/desafio.pbd	8de7a5f1a9debfa5
+92	764	6508981198687203	D:/Facul/Embarcados/ELF74_RTOS/Projects/desafio/Debug/BrowseInfo/desafio.pbw	d7e65e9c29fec51c

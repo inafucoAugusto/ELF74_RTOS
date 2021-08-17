@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Facul\Embarcados\bla\TM4C1294_RTOS_IAR9\Projects\blinky\settings\blinky.Debug.general.xcl" --backend -f "D:\Facul\Embarcados\bla\TM4C1294_RTOS_IAR9\Projects\blinky\settings\blinky.Debug.driver.xcl" 
+"D:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Facul\Embarcados\ELF74_RTOS\Projects\blinky\settings\blinky.Debug.general.xcl" --backend -f "D:\Facul\Embarcados\ELF74_RTOS\Projects\blinky\settings\blinky.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Facul\Embarcados\bla\TM4C1294_RTOS_IAR9\Projects\blinky\settings\blinky.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Facul\Embarcados\bla\TM4C1294_RTOS_IAR9\Projects\blinky\settings\blinky.Debug.driver.xcl" 
+"D:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "D:\Facul\Embarcados\ELF74_RTOS\Projects\blinky\settings\blinky.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Facul\Embarcados\ELF74_RTOS\Projects\blinky\settings\blinky.Debug.driver.xcl" 
 
 @echo off 
 :end

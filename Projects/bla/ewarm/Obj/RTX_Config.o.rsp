@@ -1,0 +1,1 @@
+﻿D:\Facul\Embarcados\ELF74_RTOS\Projects\bla\src\RTX_Config.c -o D:\Facul\Embarcados\ELF74_RTOS\Projects\bla\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "D:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol

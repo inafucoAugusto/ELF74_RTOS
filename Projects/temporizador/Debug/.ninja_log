@@ -1,0 +1,9 @@
+# ninja log v5
+1	609	6488479558492736	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/ewarm/Obj/startup_TM4C1294.o	55d9a78ed06e45b
+611	1660	6488479570227951	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/ewarm/Obj/system_TM4C1294_TW.o	adc27b47936dcfa9
+250	1671	6488479570726610	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/ewarm/Obj/driverleds.o	4c7e9c8e7e7713d0
+604	1715	6488479570138445	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/ewarm/Obj/RTX_Config.o	6756fb86cad416f4
+606	1721	6488479570327683	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/ewarm/Obj/temporizador.o	2d51f314fc07c772
+1668	1811	6488479572226683	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/ewarm/Obj/rtx_lib.o	f43702373e0f0bcf
+1818	2366	6488479577864708	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/ewarm/Exe/temporizador.out	5b16f93ab0a63284
+2373	2465	6488479578924453	D:/Facul/Embarcados/ELF74_RTOS/Projects/temporizador/ewarm/Exe/temporizador.bin	a330d0cf4603a9b7
