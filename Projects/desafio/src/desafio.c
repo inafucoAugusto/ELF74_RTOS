@@ -38,11 +38,12 @@ void thread_led(void *arg){
     osThreadFlagsWait((*target_led).thread_id, osFlagsWaitAny, osWaitForever);
     state ^= (*target_led).led;
     LEDWrite((*target_led).led, state);
-    osDelay(total_cicle - (*target_led).duty_cicle);
+    osDelay((*target_led).duty_cicle);
+    // osDelay(total_cicle - (*target_led).duty_cicle);
     
     state ^= (*target_led).led;
     LEDWrite((*target_led).led, state);
-    osDelay(total_cicle - (1-(*target_led).duty_cicle));
+    osDelay(10 - (*target_led).duty_cicle);
   }
 }
 
@@ -59,84 +60,36 @@ void thread_throw_flag(void *arg){
 } // thread1
 
 void thread_control_led(void *arg){
-  uint32_t target_led = 1;
-  uint8_t state = 0;
   while(1){
     osThreadFlagsWait(0x0001, osFlagsWaitAny, osWaitForever);
-    while(target_led < 5){
-      LEDWrite(LED1 || LED2 || LED3 || LED4, 0);
-
-      if(target_led == 1){
-        LEDWrite(LED1, !state);
-        osDelay(total_cicle - led1.duty_cicle);
-        LEDWrite(LED1, state);
-        osDelay(total_cicle - (1 - led1.duty_cicle));
-        if(ButtonRead(USW2)){
-          ButtonIntClear(USW2);
-          if(led1.duty_cicle < 10){
-            led1.duty_cicle++;
-          }
-          else{
-            led1.duty_cicle = 0;
-          }
-        }
-      }
-      
-      else if(target_led == 2){
-        LEDWrite(LED2, !state);
-        osDelay(total_cicle - led2.duty_cicle);
-        LEDWrite(LED2, state);
-        osDelay(total_cicle - (1 - led2.duty_cicle));
-        if(ButtonRead(USW2)){
-          ButtonIntClear(USW2);
-          if(led2.duty_cicle < 10){
-            led2.duty_cicle++;
-          }
-          else{
-            led2.duty_cicle = 0;
-          }
-        }
-      }
-      
-      else if(target_led == 3){
-        LEDWrite(LED1, !state);
-        osDelay(total_cicle - led3.duty_cicle);
-        LEDWrite(LED1, state);
-        osDelay(total_cicle - (1 - led3.duty_cicle));
-        if(!ButtonRead(USW2)){
-          ButtonIntClear(USW2);
-          if(led3.duty_cicle < 10){
-            led3.duty_cicle++;
-          }
-          else{
-            led3.duty_cicle = 0;
-          }
-        }
-      }
-      
-      else if(target_led == 4){
-        LEDWrite(LED1, !state);
-        osDelay(total_cicle - led4.duty_cicle);
-        LEDWrite(LED1, state);
-        osDelay(total_cicle - (1 - led4.duty_cicle));
-        if(!ButtonRead(USW2)){
-          ButtonIntClear(USW2);
-          if(led4.duty_cicle < 10){
-            led4.duty_cicle++;
-          }
-          else{
-            led4.duty_cicle = 0;
-          }
-        }
-      }
-      
-      if(!ButtonRead(USW1)){
-        ButtonIntClear(USW1);
-        target_led++;
-      }
+    if(led1.duty_cicle == 10){
+      led1.duty_cicle = 1;
+    }
+    else{
+      led1.duty_cicle = led1.duty_cicle + 1;
+    }
+    
+    if(led2.duty_cicle == 10){
+      led2.duty_cicle = 1;
+    }
+    else{
+      led2.duty_cicle = led2.duty_cicle + 1;
+    }
+    
+    if(led3.duty_cicle == 10){
+      led3.duty_cicle = 1;
+    }
+    else{
+      led3.duty_cicle = led3.duty_cicle + 1;
+    }
+    
+    if(led4.duty_cicle == 10){
+      led4.duty_cicle = 1;
+    }
+    else{
+      led4.duty_cicle = led4.duty_cicle + 1;
     }
     osMutexRelease(mutex_id);
-    target_led = 1;
   }
 }
 

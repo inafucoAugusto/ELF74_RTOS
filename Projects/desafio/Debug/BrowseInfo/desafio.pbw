@@ -344,7 +344,7 @@
     "display": "void thread_throw_flag(void *)",
     "location": {
       "column": "6",
-      "line": "49",
+      "line": "50",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "thread_throw_flag",
@@ -352,13 +352,13 @@
     "scope": null
   },
   {
-    "ID": "c:desafio.c@1419@F@thread_throw_flag@state",
+    "ID": "c:desafio.c@1449@F@thread_throw_flag@state",
     "What": "Variable",
     "defdec": "Def",
     "display": "state",
     "location": {
       "column": "11",
-      "line": "50",
+      "line": "51",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "state",
@@ -372,38 +372,10 @@
     "display": "void thread_control_led(void *)",
     "location": {
       "column": "6",
-      "line": "61",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
-    },
-    "name": "thread_control_led",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:desafio.c@1770@F@thread_control_led@target_led",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "target_led",
-    "location": {
-      "column": "12",
       "line": "62",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
-    "name": "target_led",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:desafio.c@1798@F@thread_control_led@state",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "state",
-    "location": {
-      "column": "11",
-      "line": "63",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
-    },
-    "name": "state",
+    "name": "thread_control_led",
     "origin": "project_file",
     "scope": null
   },
@@ -414,7 +386,7 @@
     "display": "void thread_block(void *)",
     "location": {
       "column": "6",
-      "line": "143",
+      "line": "96",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "thread_block",
@@ -422,13 +394,13 @@
     "scope": null
   },
   {
-    "ID": "c:desafio.c@3926@F@thread_block@aux",
+    "ID": "c:desafio.c@2490@F@thread_block@aux",
     "What": "Variable",
     "defdec": "Def",
     "display": "aux",
     "location": {
       "column": "11",
-      "line": "144",
+      "line": "97",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "aux",
@@ -442,7 +414,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "160",
+      "line": "113",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "main",
@@ -10892,20 +10864,6 @@
     "scope": null
   },
   {
-    "ID": "c:stdint.h@T@__data_intptr_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "int",
-    "location": {
-      "column": "1",
-      "line": "89",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stdint.h"
-    },
-    "name": "__data_intptr_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:stdint.h@T@__data_uintptr_t",
     "What": "Typedef",
     "defdec": "Def",
@@ -10916,6 +10874,20 @@
       "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stdint.h"
     },
     "name": "__data_uintptr_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdint.h@T@__data_intptr_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "int",
+    "location": {
+      "column": "1",
+      "line": "89",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stdint.h"
+    },
+    "name": "__data_intptr_t",
     "origin": "system_include",
     "scope": null
   },
@@ -11774,381 +11746,59 @@
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@75@macro@_DLIB_PRODUCTS_H_",
+    "ID": "c:system_tm4c1294.h@1166@macro@SYSTEM_TM4C1294_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_PRODUCTS_H_",
+    "display": "SYSTEM_TM4C1294_H",
     "location": {
       "column": "9",
-      "line": "4",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+      "line": "27",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
     },
-    "name": "_DLIB_PRODUCTS_H_",
-    "origin": "system_include",
+    "name": "SYSTEM_TM4C1294_H",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@524@macro@_DLIB_WIDE_CHARACTERS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_WIDE_CHARACTERS",
+    "ID": "c:@SystemCoreClock",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "SystemCoreClock",
     "location": {
-      "column": "9",
-      "line": "21",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+      "column": "17",
+      "line": "35",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
     },
-    "name": "_DLIB_WIDE_CHARACTERS",
-    "origin": "system_include",
+    "name": "SystemCoreClock",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@680@macro@_DLIB_PRODUCT_STRING",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCT_STRING",
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemInit(void)",
     "location": {
-      "column": "9",
-      "line": "25",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+      "column": "13",
+      "line": "47",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
     },
-    "name": "_DLIB_PRODUCT_STRING",
-    "origin": "system_include",
+    "name": "SystemInit",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@831@macro@_DLIB_PRODUCT_FENV",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCT_FENV",
+    "ID": "c:@F@SystemCoreClockUpdate",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemCoreClockUpdate(void)",
     "location": {
-      "column": "9",
-      "line": "29",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+      "column": "13",
+      "line": "58",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
     },
-    "name": "_DLIB_PRODUCT_FENV",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@984@macro@_DLIB_PRODUCT_STDLIB",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCT_STDLIB",
-    "location": {
-      "column": "9",
-      "line": "33",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_PRODUCT_STDLIB",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1095@macro@_DLIB_QSORT_BUF_SIZE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_QSORT_BUF_SIZE",
-    "location": {
-      "column": "9",
-      "line": "37",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_QSORT_BUF_SIZE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1270@macro@_DLIB_SUPPORT_FOR_AEABI",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_SUPPORT_FOR_AEABI",
-    "location": {
-      "column": "9",
-      "line": "46",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_SUPPORT_FOR_AEABI",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1353@macro@_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "location": {
-      "column": "9",
-      "line": "49",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1479@macro@_DLIB_STRTOD_HEX_FLOAT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_STRTOD_HEX_FLOAT",
-    "location": {
-      "column": "9",
-      "line": "53",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_STRTOD_HEX_FLOAT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1833@macro@_USE_ATOMIC_OPS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_USE_ATOMIC_OPS",
-    "location": {
-      "column": "11",
-      "line": "65",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_USE_ATOMIC_OPS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@1958@macro@__SOFTFP",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__SOFTFP",
-    "location": {
-      "column": "11",
-      "line": "70",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "__SOFTFP",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2082@macro@__NO_SCRATCH",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__NO_SCRATCH",
-    "location": {
-      "column": "9",
-      "line": "74",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "__NO_SCRATCH",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2206@macro@_DLIB_SPEEDY_FLOATS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_SPEEDY_FLOATS",
-    "location": {
-      "column": "9",
-      "line": "77",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_SPEEDY_FLOATS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2267@macro@_DLIB_TIME_USES_64_DEFAULT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_TIME_USES_64_DEFAULT",
-    "location": {
-      "column": "9",
-      "line": "80",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_TIME_USES_64_DEFAULT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2380@macro@_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
-    "location": {
-      "column": "11",
-      "line": "84",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2464@macro@_DLIB_ELF_INIT_STATIC_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_STATIC_BASE",
-    "location": {
-      "column": "11",
-      "line": "85",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_STATIC_BASE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2511@macro@_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
-    "location": {
-      "column": "11",
-      "line": "86",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2871@macro@_DLIB_ELF_INIT_TABLE_MEMORY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_TABLE_MEMORY",
-    "location": {
-      "column": "9",
-      "line": "96",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_TABLE_MEMORY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2921@macro@_DLIB_ELF_INIT_SOURCE_MEMORY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_SOURCE_MEMORY",
-    "location": {
-      "column": "9",
-      "line": "97",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_SOURCE_MEMORY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@2971@macro@_DLIB_ELF_INIT_DESTINATION_MEMORY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
-    "location": {
-      "column": "9",
-      "line": "98",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@3119@macro@_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
-    "location": {
-      "column": "11",
-      "line": "103",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@3180@macro@_DLIB_ELF_INIT_REGION_COUNT_TYPE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
-    "location": {
-      "column": "9",
-      "line": "105",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@3609@macro@_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
-    "location": {
-      "column": "9",
-      "line": "115",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@4021@macro@_DLIB_ELF_INIT_INTERFACE_VERSION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_INTERFACE_VERSION",
-    "location": {
-      "column": "9",
-      "line": "124",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_INTERFACE_VERSION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@4067@macro@_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "location": {
-      "column": "9",
-      "line": "126",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@4119@macro@_XMATHWRAPPERS_DEF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_XMATHWRAPPERS_DEF",
-    "location": {
-      "column": "9",
-      "line": "128",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_XMATHWRAPPERS_DEF",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@4168@macro@_CPPINIT_ATTR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_CPPINIT_ATTR",
-    "location": {
-      "column": "9",
-      "line": "130",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
-    },
-    "name": "_CPPINIT_ATTR",
-    "origin": "system_include",
+    "name": "SystemCoreClockUpdate",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -12841,7 +12491,7 @@
     "ID": "c:@F@GPIOIntStatus",
     "What": "Function",
     "defdec": "Dec",
-    "display": "uint32_t GPIOIntStatus(uint32_t, _Bool)",
+    "display": "uint32_t GPIOIntStatus(uint32_t, bool)",
     "location": {
       "column": "17",
       "line": "153",
@@ -12855,7 +12505,7 @@
     "ID": "c:@F@GPIOIntStatus",
     "What": "Function",
     "defdec": "Dec",
-    "display": "uint32_t GPIOIntStatus(uint32_t, bool)",
+    "display": "uint32_t GPIOIntStatus(uint32_t, _Bool)",
     "location": {
       "column": "17",
       "line": "153",
@@ -20081,426 +19731,6 @@
     "scope": null
   },
   {
-    "ID": "c:driverbuttons.h@37@macro@__DRIVERBUTTONS_H__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DRIVERBUTTONS_H__",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "__DRIVERBUTTONS_H__",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverbuttons.h@91@macro@USW1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "USW1",
-    "location": {
-      "column": "9",
-      "line": "6",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "USW1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverbuttons.h@110@macro@USW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "USW2",
-    "location": {
-      "column": "9",
-      "line": "7",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "USW2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonInit(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "9",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonInit(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "9",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonRead",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t ButtonRead(uint8_t)",
-    "location": {
-      "column": "16",
-      "line": "10",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonRead",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonRead",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t ButtonRead(uint8_t)",
-    "location": {
-      "column": "16",
-      "line": "10",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonRead",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonIntEnable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonIntEnable(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "11",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonIntEnable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonIntEnable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonIntEnable(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "11",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonIntEnable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonIntDisable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonIntDisable(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "12",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonIntDisable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonIntDisable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonIntDisable(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "12",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonIntDisable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonIntClear",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonIntClear(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "13",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonIntClear",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonIntClear",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonIntClear(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "13",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonIntClear",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverleds.h@34@macro@__DRIVERLEDS_H__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DRIVERLEDS_H__",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "__DRIVERLEDS_H__",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverleds.h@85@macro@LED1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED1",
-    "location": {
-      "column": "9",
-      "line": "6",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LED1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverleds.h@104@macro@LED2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED2",
-    "location": {
-      "column": "9",
-      "line": "7",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LED2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverleds.h@123@macro@LED3",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED3",
-    "location": {
-      "column": "9",
-      "line": "8",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LED3",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverleds.h@142@macro@LED4",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED4",
-    "location": {
-      "column": "9",
-      "line": "9",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LED4",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDInit(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "11",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDInit(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "11",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PWMLEDInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PWMLEDInit(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "12",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "PWMLEDInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PWMLEDInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PWMLEDInit(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "12",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "PWMLEDInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDOn",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDOn(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "13",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDOn",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDOn",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDOn(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "13",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDOn",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDOff",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDOff(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "14",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDOff",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDOff",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDOff(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "14",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDOff",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDToggle",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDToggle(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "15",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDToggle",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDToggle",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDToggle(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "15",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDToggle",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDWrite",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDWrite(uint8_t, uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "16",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDWrite",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDWrite",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDWrite(uint8_t, uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "16",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDWrite",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:hw_memmap.h@1999@macro@__HW_MEMMAP_H__",
     "What": "MacroDef",
     "defdec": "Def",
@@ -21859,59 +21089,381 @@
     "scope": null
   },
   {
-    "ID": "c:system_tm4c1294.h@1166@macro@SYSTEM_TM4C1294_H",
+    "ID": "c:DLib_Product.h@75@macro@_DLIB_PRODUCTS_H_",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "SYSTEM_TM4C1294_H",
+    "display": "_DLIB_PRODUCTS_H_",
     "location": {
       "column": "9",
-      "line": "27",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
+      "line": "4",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
     },
-    "name": "SYSTEM_TM4C1294_H",
-    "origin": "user_include",
+    "name": "_DLIB_PRODUCTS_H_",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@SystemCoreClock",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "SystemCoreClock",
+    "ID": "c:DLib_Product.h@524@macro@_DLIB_WIDE_CHARACTERS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_WIDE_CHARACTERS",
     "location": {
-      "column": "17",
-      "line": "35",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
+      "column": "9",
+      "line": "21",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
     },
-    "name": "SystemCoreClock",
-    "origin": "user_include",
+    "name": "_DLIB_WIDE_CHARACTERS",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SystemInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void SystemInit(void)",
+    "ID": "c:DLib_Product.h@680@macro@_DLIB_PRODUCT_STRING",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCT_STRING",
     "location": {
-      "column": "13",
-      "line": "47",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
+      "column": "9",
+      "line": "25",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
     },
-    "name": "SystemInit",
-    "origin": "user_include",
+    "name": "_DLIB_PRODUCT_STRING",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SystemCoreClockUpdate",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void SystemCoreClockUpdate(void)",
+    "ID": "c:DLib_Product.h@831@macro@_DLIB_PRODUCT_FENV",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCT_FENV",
     "location": {
-      "column": "13",
-      "line": "58",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
+      "column": "9",
+      "line": "29",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
     },
-    "name": "SystemCoreClockUpdate",
-    "origin": "user_include",
+    "name": "_DLIB_PRODUCT_FENV",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@984@macro@_DLIB_PRODUCT_STDLIB",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCT_STDLIB",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_PRODUCT_STDLIB",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1095@macro@_DLIB_QSORT_BUF_SIZE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_QSORT_BUF_SIZE",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_QSORT_BUF_SIZE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1270@macro@_DLIB_SUPPORT_FOR_AEABI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_SUPPORT_FOR_AEABI",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_SUPPORT_FOR_AEABI",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1353@macro@_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1479@macro@_DLIB_STRTOD_HEX_FLOAT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRTOD_HEX_FLOAT",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_STRTOD_HEX_FLOAT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1833@macro@_USE_ATOMIC_OPS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_USE_ATOMIC_OPS",
+    "location": {
+      "column": "11",
+      "line": "65",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_USE_ATOMIC_OPS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@1958@macro@__SOFTFP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SOFTFP",
+    "location": {
+      "column": "11",
+      "line": "70",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "__SOFTFP",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2082@macro@__NO_SCRATCH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__NO_SCRATCH",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "__NO_SCRATCH",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2206@macro@_DLIB_SPEEDY_FLOATS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_SPEEDY_FLOATS",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_SPEEDY_FLOATS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2267@macro@_DLIB_TIME_USES_64_DEFAULT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_TIME_USES_64_DEFAULT",
+    "location": {
+      "column": "9",
+      "line": "80",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_TIME_USES_64_DEFAULT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2380@macro@_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
+    "location": {
+      "column": "11",
+      "line": "84",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_STATIC_BASE_DECLARATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2464@macro@_DLIB_ELF_INIT_STATIC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_STATIC_BASE",
+    "location": {
+      "column": "11",
+      "line": "85",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_STATIC_BASE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2511@macro@_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
+    "location": {
+      "column": "11",
+      "line": "86",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2871@macro@_DLIB_ELF_INIT_TABLE_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_TABLE_MEMORY",
+    "location": {
+      "column": "9",
+      "line": "96",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_TABLE_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2921@macro@_DLIB_ELF_INIT_SOURCE_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_SOURCE_MEMORY",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_SOURCE_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@2971@macro@_DLIB_ELF_INIT_DESTINATION_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
+    "location": {
+      "column": "9",
+      "line": "98",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@3119@macro@_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
+    "location": {
+      "column": "11",
+      "line": "103",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_USE_RELATIVE_ROM_ADDRESSES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@3180@macro@_DLIB_ELF_INIT_REGION_COUNT_TYPE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
+    "location": {
+      "column": "9",
+      "line": "105",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@3609@macro@_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
+    "location": {
+      "column": "9",
+      "line": "115",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_MODULE_ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@4021@macro@_DLIB_ELF_INIT_INTERFACE_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_INTERFACE_VERSION",
+    "location": {
+      "column": "9",
+      "line": "124",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_INTERFACE_VERSION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@4067@macro@_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "location": {
+      "column": "9",
+      "line": "126",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_USE_RTMODEL_JMP_BUF_NUM_ELEMENTS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@4119@macro@_XMATHWRAPPERS_DEF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_XMATHWRAPPERS_DEF",
+    "location": {
+      "column": "9",
+      "line": "128",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_XMATHWRAPPERS_DEF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@4168@macro@_CPPINIT_ATTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_CPPINIT_ATTR",
+    "location": {
+      "column": "9",
+      "line": "130",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_CPPINIT_ATTR",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -22127,6 +21679,244 @@
     "scope": null
   },
   {
+    "ID": "c:driverleds.h@34@macro@__DRIVERLEDS_H__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DRIVERLEDS_H__",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "__DRIVERLEDS_H__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:driverleds.h@85@macro@LED1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED1",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LED1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:driverleds.h@104@macro@LED2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED2",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LED2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:driverleds.h@123@macro@LED3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED3",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LED3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:driverleds.h@142@macro@LED4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED4",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LED4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDInit(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "11",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDInit(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "11",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PWMLEDInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PWMLEDInit(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "PWMLEDInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PWMLEDInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PWMLEDInit(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "PWMLEDInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDOn",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDOn(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "13",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDOn",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDOn",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDOn(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "13",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDOn",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDOff",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDOff(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "14",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDOff",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDOff",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDOff(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "14",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDOff",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDToggle",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDToggle(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "15",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDToggle",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDToggle",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDToggle(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "15",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDToggle",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDWrite",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDWrite(uint8_t, uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "16",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDWrite",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDWrite",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDWrite(uint8_t, uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "16",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDWrite",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:ysizet.h@111@macro@_YSIZET_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -22208,6 +21998,188 @@
     },
     "name": "__data_size_t",
     "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:driverbuttons.h@37@macro@__DRIVERBUTTONS_H__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DRIVERBUTTONS_H__",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "__DRIVERBUTTONS_H__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:driverbuttons.h@91@macro@USW1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USW1",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "USW1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:driverbuttons.h@110@macro@USW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USW2",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "USW2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonInit(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "9",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonInit(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "9",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonRead",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t ButtonRead(uint8_t)",
+    "location": {
+      "column": "16",
+      "line": "10",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonRead",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonRead",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t ButtonRead(uint8_t)",
+    "location": {
+      "column": "16",
+      "line": "10",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonRead",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonIntEnable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonIntEnable(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "11",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonIntEnable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonIntEnable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonIntEnable(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "11",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonIntEnable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonIntDisable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonIntDisable(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "12",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonIntDisable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonIntDisable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonIntDisable(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "12",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonIntDisable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonIntClear",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonIntClear(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "13",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonIntClear",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonIntClear",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonIntClear(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "13",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonIntClear",
+    "origin": "user_include",
     "scope": null
   },
   {
