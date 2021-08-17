@@ -59,9 +59,9 @@ Com o mesmo princípio citado anteriormente, não há razão para a inicializaç
 
 Um destaque para o uso da variável thead_id; está representa qual é o sinal que a thread espera para que possa realizar o acionamento ou desligamento do led.
 
-Outro requisito foi a utilização de um botão para o inicio de um inicio de configuração e outro para alterar o valor propriamente. Entre tanto no kit em que o sistema estava sendo testado/desenvolvido houve um problema de hardware em que quando se pressionava o botão 2 o botão 1 também ia para uma leitura de HIGH; o inverso não se aplica no problema. Logo, o requisito de selecionar um led com um botão e alterar o seu valor de duty cycle com o outro botão não será possível. 
+Outro requisito foi a utilização de um botão para o inicio de configuração e outro para alterar o valor propriamente. Entre tanto o kit em que o sistema estava sendo testado/desenvolvido houve um problema de hardware em que quando se pressionava o botão 2 o botão 1 também ia para uma leitura de HIGH; o inverso não se aplica no problema descrito. Logo, o requisito de selecionar um led com um botão e alterar o seu valor de duty cycle com o outro botão não foi possível de ser atendido. 
 
-Como solução para isso foi realizada a seguinte alteração; Ao se pressionar o botão, qualquer um deles devido ao problema, todos os leds terão seu valor de duty cycle alterados, sempre de forma crescente. Se os mesmos chegarem ao seu valor máximo retornaram ao valor mínimo. Desta forma conforma os botões são pressionados os leds aumentam sua "intensidade de brilho" até o máximo e logo após voltam a sua "intensidade mínima".
+Como solução para isso foi realizada a seguinte alteração; Ao se pressionar o botão, qualquer um deles devido ao problema, todos os leds terão seu valor de duty cycle alterados, sempre de forma crescente. Se os mesmos chegarem ao seu valor máximo retornaram ao valor mínimo. Desta forma conforme os botões são pressionados os leds aumentam sua "intensidade de brilho" até o máximo e logo após voltam a sua "intensidade mínima".
 
 A seguir o uml final da solução
 
