@@ -344,7 +344,7 @@
     "display": "void thread_throw_flag(void *)",
     "location": {
       "column": "6",
-      "line": "50",
+      "line": "49",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "thread_throw_flag",
@@ -352,13 +352,13 @@
     "scope": null
   },
   {
-    "ID": "c:desafio.c@1449@F@thread_throw_flag@state",
+    "ID": "c:desafio.c@1388@F@thread_throw_flag@state",
     "What": "Variable",
     "defdec": "Def",
     "display": "state",
     "location": {
       "column": "11",
-      "line": "51",
+      "line": "50",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "state",
@@ -372,7 +372,7 @@
     "display": "void thread_control_led(void *)",
     "location": {
       "column": "6",
-      "line": "62",
+      "line": "61",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "thread_control_led",
@@ -386,7 +386,7 @@
     "display": "void thread_block(void *)",
     "location": {
       "column": "6",
-      "line": "96",
+      "line": "95",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "thread_block",
@@ -394,13 +394,13 @@
     "scope": null
   },
   {
-    "ID": "c:desafio.c@2490@F@thread_block@aux",
+    "ID": "c:desafio.c@2429@F@thread_block@aux",
     "What": "Variable",
     "defdec": "Def",
     "display": "aux",
     "location": {
       "column": "11",
-      "line": "97",
+      "line": "96",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "aux",
@@ -414,7 +414,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "113",
+      "line": "112",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "main",

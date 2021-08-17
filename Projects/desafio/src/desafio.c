@@ -39,8 +39,7 @@ void thread_led(void *arg){
     state ^= (*target_led).led;
     LEDWrite((*target_led).led, state);
     osDelay((*target_led).duty_cicle);
-    // osDelay(total_cicle - (*target_led).duty_cicle);
-    
+
     state ^= (*target_led).led;
     LEDWrite((*target_led).led, state);
     osDelay(10 - (*target_led).duty_cicle);
