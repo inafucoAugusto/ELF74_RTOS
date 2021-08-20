@@ -3,7 +3,8 @@
 #include "cmsis_os2.h" // CMSIS-RTOS
 #include "driverbuttons.h"
 
-osThreadId_t thread1_id, thread2_id, thread3_id, thread4_id, throw_flag, control_led, block_control;
+osThreadId_t thread1_id, thread2_id, thread3_id, thread4_id, throw_flag, control_led, block_control, in_led_selection;
+uint8_t taget_led = 1;
 osMutexId_t mutex_id;
 uint32_t total_cicle = 10;
 uint8_t bla = 0;
@@ -17,10 +18,15 @@ typedef struct{
 LED led1, led2, led3, led4;
 
 void GPIOJ_Handler(void){
-  if(ButtonRead(USW1) != 0){
+  if(ButtonRead(USW1) == 0){
     ButtonIntClear(USW1);
     ButtonIntClear(USW2);
-    osThreadFlagsSet(block_control, 0x0001);
+    osThreadFlagsSet(control_led, 0x0001);
+  }
+  if(ButtonRead(USW2) == 0){
+    ButtonIntClear(USW1);
+    ButtonIntClear(USW2);
+    osThreadFlagsSet(in_led_selection, 0x0001);
   }
 }
 
@@ -55,38 +61,49 @@ void thread_throw_flag(void *arg){
     osThreadFlagsSet(thread3_id, 0x0003);
     osThreadFlagsSet(thread4_id, 0x0004);
     osMutexRelease(mutex_id);
-  } // while
-} // thread1
+  }
+}
 
 void thread_control_led(void *arg){
+//  LED led_position[3] = {led1, led2, led3, led4}
   while(1){
     osThreadFlagsWait(0x0001, osFlagsWaitAny, osWaitForever);
-    if(led1.duty_cicle == 10){
-      led1.duty_cicle = 1;
+    osMutexAcquire(mutex_id, osWaitForever);
+
+    if(taget_led == 1){
+      if(led1.duty_cicle == 10){
+        led1.duty_cicle = 1;
+      }
+      else{
+        led1.duty_cicle = led1.duty_cicle + 1;
+      }
     }
-    else{
-      led1.duty_cicle = led1.duty_cicle + 1;
+
+    else if(taget_led == 2){
+      if(led2.duty_cicle == 10){
+        led2.duty_cicle = 1;
+      }
+      else{
+        led2.duty_cicle = led2.duty_cicle + 1;
+      }
     }
-    
-    if(led2.duty_cicle == 10){
-      led2.duty_cicle = 1;
+
+    else if(taget_led == 3){
+      if(led3.duty_cicle == 10){
+        led3.duty_cicle = 1;
+      }
+      else{
+        led3.duty_cicle = led3.duty_cicle + 1;
+      }
     }
-    else{
-      led2.duty_cicle = led2.duty_cicle + 1;
-    }
-    
-    if(led3.duty_cicle == 10){
-      led3.duty_cicle = 1;
-    }
-    else{
-      led3.duty_cicle = led3.duty_cicle + 1;
-    }
-    
-    if(led4.duty_cicle == 10){
-      led4.duty_cicle = 1;
-    }
-    else{
-      led4.duty_cicle = led4.duty_cicle + 1;
+
+    else if(taget_led == 4){
+      if(led4.duty_cicle == 10){
+        led4.duty_cicle = 1;
+      }
+      else{
+        led4.duty_cicle = led4.duty_cicle + 1;
+      }
     }
     osMutexRelease(mutex_id);
   }
@@ -99,13 +116,29 @@ void thread_block(void *arg){
     if(aux){
       osMutexAcquire(mutex_id, osWaitForever);
       aux = !aux;
-      osDelay(100);
+      osDelay(10);
       osThreadFlagsSet(control_led, 0x0001);
     }
     else{
       osMutexRelease(mutex_id);
       aux = !aux;
     }
+  }
+}
+
+void thread_in_led_selection(void *arg){
+  uint8_t aux = 1;
+  while(1){
+    osThreadFlagsWait(0x0001, osFlagsWaitAny, osWaitForever);
+    osMutexAcquire(mutex_id, osWaitForever);
+    if(taget_led < 4){
+      taget_led = taget_led + 1;
+    }
+    else{
+      taget_led = 1;
+    }
+    osDelay(10);
+    osMutexRelease(mutex_id);
   }
 }
 
@@ -140,6 +173,7 @@ void main(void){
   thread4_id = osThreadNew(thread_led, &led4, NULL);
   throw_flag = osThreadNew(thread_throw_flag, NULL, NULL);
   control_led = osThreadNew(thread_control_led, NULL, NULL);
+  in_led_selection = osThreadNew(thread_in_led_selection, NULL, NULL);
   block_control = osThreadNew(thread_block, NULL, NULL);
   
   mutex_id = osMutexNew(&Phases_Mutex_attr);

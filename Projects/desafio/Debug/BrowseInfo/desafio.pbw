@@ -98,13 +98,41 @@
     "scope": null
   },
   {
+    "ID": "c:@in_led_selection",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "in_led_selection",
+    "location": {
+      "column": "102",
+      "line": "6",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
+    },
+    "name": "in_led_selection",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@taget_led",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "taget_led",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
+    },
+    "name": "taget_led",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@mutex_id",
     "What": "Variable",
     "defdec": "Dec",
     "display": "mutex_id",
     "location": {
       "column": "13",
-      "line": "7",
+      "line": "8",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "mutex_id",
@@ -118,7 +146,7 @@
     "display": "total_cicle",
     "location": {
       "column": "10",
-      "line": "8",
+      "line": "9",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "total_cicle",
@@ -132,7 +160,7 @@
     "display": "bla",
     "location": {
       "column": "9",
-      "line": "9",
+      "line": "10",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "bla",
@@ -146,7 +174,7 @@
     "display": "",
     "location": {
       "column": "9",
-      "line": "11",
+      "line": "12",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "members": [
@@ -157,12 +185,12 @@
         "display": "led",
         "location": {
           "column": "11",
-          "line": "12",
+          "line": "13",
           "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
         },
         "name": "led",
         "origin": "project_file",
-        "scope": "_anonymous_desafio_c_11_9"
+        "scope": "_anonymous_desafio_c_12_9"
       },
       {
         "ID": "c:@SA@LED@FI@duty_cicle",
@@ -171,12 +199,12 @@
         "display": "duty_cicle",
         "location": {
           "column": "7",
-          "line": "13",
+          "line": "14",
           "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
         },
         "name": "duty_cicle",
         "origin": "project_file",
-        "scope": "_anonymous_desafio_c_11_9"
+        "scope": "_anonymous_desafio_c_12_9"
       },
       {
         "ID": "c:@SA@LED@FI@thread_id",
@@ -185,12 +213,12 @@
         "display": "thread_id",
         "location": {
           "column": "7",
-          "line": "14",
+          "line": "15",
           "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
         },
         "name": "thread_id",
         "origin": "project_file",
-        "scope": "_anonymous_desafio_c_11_9"
+        "scope": "_anonymous_desafio_c_12_9"
       },
       {
         "ID": "c:@T@LED",
@@ -199,12 +227,12 @@
         "display": "struct LED",
         "location": {
           "column": "2",
-          "line": "15",
+          "line": "16",
           "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
         },
         "name": "LED",
         "origin": "project_file",
-        "scope": "_anonymous_desafio_c_11_9"
+        "scope": "_anonymous_desafio_c_12_9"
       }
     ],
     "name": "",
@@ -218,7 +246,7 @@
     "display": "led1",
     "location": {
       "column": "5",
-      "line": "17",
+      "line": "18",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "led1",
@@ -232,7 +260,7 @@
     "display": "led2",
     "location": {
       "column": "11",
-      "line": "17",
+      "line": "18",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "led2",
@@ -246,7 +274,7 @@
     "display": "led3",
     "location": {
       "column": "17",
-      "line": "17",
+      "line": "18",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "led3",
@@ -260,7 +288,7 @@
     "display": "led4",
     "location": {
       "column": "23",
-      "line": "17",
+      "line": "18",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "led4",
@@ -274,7 +302,7 @@
     "display": "void GPIOJ_Handler(void)",
     "location": {
       "column": "6",
-      "line": "19",
+      "line": "20",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "GPIOJ_Handler",
@@ -288,7 +316,7 @@
     "display": "Phases_Mutex_attr",
     "location": {
       "column": "21",
-      "line": "27",
+      "line": "33",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "Phases_Mutex_attr",
@@ -302,7 +330,7 @@
     "display": "void thread_led(void *)",
     "location": {
       "column": "6",
-      "line": "34",
+      "line": "40",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "thread_led",
@@ -310,13 +338,13 @@
     "scope": null
   },
   {
-    "ID": "c:desafio.c@966@F@thread_led@state",
+    "ID": "c:desafio.c@1144@F@thread_led@state",
     "What": "Variable",
     "defdec": "Def",
     "display": "state",
     "location": {
       "column": "11",
-      "line": "35",
+      "line": "41",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "state",
@@ -324,13 +352,13 @@
     "scope": null
   },
   {
-    "ID": "c:desafio.c@988@F@thread_led@target_led",
+    "ID": "c:desafio.c@1166@F@thread_led@target_led",
     "What": "Variable",
     "defdec": "Def",
     "display": "target_led",
     "location": {
       "column": "8",
-      "line": "36",
+      "line": "42",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "target_led",
@@ -344,7 +372,7 @@
     "display": "void thread_throw_flag(void *)",
     "location": {
       "column": "6",
-      "line": "49",
+      "line": "55",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "thread_throw_flag",
@@ -352,13 +380,13 @@
     "scope": null
   },
   {
-    "ID": "c:desafio.c@1388@F@thread_throw_flag@state",
+    "ID": "c:desafio.c@1566@F@thread_throw_flag@state",
     "What": "Variable",
     "defdec": "Def",
     "display": "state",
     "location": {
       "column": "11",
-      "line": "50",
+      "line": "56",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "state",
@@ -372,7 +400,7 @@
     "display": "void thread_control_led(void *)",
     "location": {
       "column": "6",
-      "line": "61",
+      "line": "67",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "thread_control_led",
@@ -386,7 +414,7 @@
     "display": "void thread_block(void *)",
     "location": {
       "column": "6",
-      "line": "95",
+      "line": "112",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "thread_block",
@@ -394,13 +422,41 @@
     "scope": null
   },
   {
-    "ID": "c:desafio.c@2429@F@thread_block@aux",
+    "ID": "c:desafio.c@2866@F@thread_block@aux",
     "What": "Variable",
     "defdec": "Def",
     "display": "aux",
     "location": {
       "column": "11",
-      "line": "96",
+      "line": "113",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
+    },
+    "name": "aux",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@thread_in_led_selection",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void thread_in_led_selection(void *)",
+    "location": {
+      "column": "6",
+      "line": "129",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
+    },
+    "name": "thread_in_led_selection",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:desafio.c@3238@F@thread_in_led_selection@aux",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "aux",
+    "location": {
+      "column": "11",
+      "line": "130",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "aux",
@@ -414,7 +470,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "112",
+      "line": "145",
       "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\desafio.c"
     },
     "name": "main",
@@ -9551,7 +9607,7 @@
     "ID": "c:@F@SysCtlPeripheralReady",
     "What": "Function",
     "defdec": "Dec",
-    "display": "_Bool SysCtlPeripheralReady(uint32_t)",
+    "display": "bool SysCtlPeripheralReady(uint32_t)",
     "location": {
       "column": "13",
       "line": "586",
@@ -9565,7 +9621,7 @@
     "ID": "c:@F@SysCtlPeripheralReady",
     "What": "Function",
     "defdec": "Dec",
-    "display": "bool SysCtlPeripheralReady(uint32_t)",
+    "display": "_Bool SysCtlPeripheralReady(uint32_t)",
     "location": {
       "column": "13",
       "line": "586",
@@ -10125,7 +10181,7 @@
     "ID": "c:@F@SysCtlIOSCVerificationSet",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void SysCtlIOSCVerificationSet(bool)",
+    "display": "void SysCtlIOSCVerificationSet(_Bool)",
     "location": {
       "column": "13",
       "line": "626",
@@ -10139,7 +10195,7 @@
     "ID": "c:@F@SysCtlIOSCVerificationSet",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void SysCtlIOSCVerificationSet(_Bool)",
+    "display": "void SysCtlIOSCVerificationSet(bool)",
     "location": {
       "column": "13",
       "line": "626",
@@ -10864,20 +10920,6 @@
     "scope": null
   },
   {
-    "ID": "c:stdint.h@T@__data_uintptr_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "1",
-      "line": "89",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stdint.h"
-    },
-    "name": "__data_uintptr_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:stdint.h@T@__data_intptr_t",
     "What": "Typedef",
     "defdec": "Def",
@@ -10888,6 +10930,20 @@
       "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stdint.h"
     },
     "name": "__data_intptr_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdint.h@T@__data_uintptr_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned int",
+    "location": {
+      "column": "1",
+      "line": "89",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\stdint.h"
+    },
+    "name": "__data_uintptr_t",
     "origin": "system_include",
     "scope": null
   },
@@ -11746,58 +11802,240 @@
     "scope": null
   },
   {
-    "ID": "c:system_tm4c1294.h@1166@macro@SYSTEM_TM4C1294_H",
+    "ID": "c:driverleds.h@34@macro@__DRIVERLEDS_H__",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "SYSTEM_TM4C1294_H",
+    "display": "__DRIVERLEDS_H__",
     "location": {
       "column": "9",
-      "line": "27",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
+      "line": "2",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
     },
-    "name": "SYSTEM_TM4C1294_H",
+    "name": "__DRIVERLEDS_H__",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@SystemCoreClock",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "SystemCoreClock",
+    "ID": "c:driverleds.h@85@macro@LED1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED1",
     "location": {
-      "column": "17",
-      "line": "35",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
+      "column": "9",
+      "line": "6",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
     },
-    "name": "SystemCoreClock",
+    "name": "LED1",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SystemInit",
+    "ID": "c:driverleds.h@104@macro@LED2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED2",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LED2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:driverleds.h@123@macro@LED3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED3",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LED3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:driverleds.h@142@macro@LED4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED4",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LED4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDInit",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void SystemInit(void)",
+    "display": "void LEDInit(uint8_t)",
     "location": {
       "column": "13",
-      "line": "47",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
+      "line": "11",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
     },
-    "name": "SystemInit",
+    "name": "LEDInit",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@SystemCoreClockUpdate",
+    "ID": "c:@F@LEDInit",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void SystemCoreClockUpdate(void)",
+    "display": "void LEDInit(uint8_t)",
     "location": {
       "column": "13",
-      "line": "58",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
+      "line": "11",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
     },
-    "name": "SystemCoreClockUpdate",
+    "name": "LEDInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PWMLEDInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PWMLEDInit(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "PWMLEDInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PWMLEDInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PWMLEDInit(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "PWMLEDInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDOn",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDOn(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "13",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDOn",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDOn",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDOn(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "13",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDOn",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDOff",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDOff(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "14",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDOff",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDOff",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDOff(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "14",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDOff",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDToggle",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDToggle(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "15",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDToggle",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDToggle",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDToggle(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "15",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDToggle",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDWrite",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDWrite(uint8_t, uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "16",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDWrite",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LEDWrite",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LEDWrite(uint8_t, uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "16",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
+    },
+    "name": "LEDWrite",
     "origin": "user_include",
     "scope": null
   },
@@ -12491,7 +12729,7 @@
     "ID": "c:@F@GPIOIntStatus",
     "What": "Function",
     "defdec": "Dec",
-    "display": "uint32_t GPIOIntStatus(uint32_t, bool)",
+    "display": "uint32_t GPIOIntStatus(uint32_t, _Bool)",
     "location": {
       "column": "17",
       "line": "153",
@@ -12505,7 +12743,7 @@
     "ID": "c:@F@GPIOIntStatus",
     "What": "Function",
     "defdec": "Dec",
-    "display": "uint32_t GPIOIntStatus(uint32_t, _Bool)",
+    "display": "uint32_t GPIOIntStatus(uint32_t, bool)",
     "location": {
       "column": "17",
       "line": "153",
@@ -21467,6 +21705,272 @@
     "scope": null
   },
   {
+    "ID": "c:driverbuttons.h@37@macro@__DRIVERBUTTONS_H__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DRIVERBUTTONS_H__",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "__DRIVERBUTTONS_H__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:driverbuttons.h@91@macro@USW1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USW1",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "USW1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:driverbuttons.h@110@macro@USW2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USW2",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "USW2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonInit(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "9",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonInit(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "9",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonRead",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t ButtonRead(uint8_t)",
+    "location": {
+      "column": "16",
+      "line": "10",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonRead",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonRead",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t ButtonRead(uint8_t)",
+    "location": {
+      "column": "16",
+      "line": "10",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonRead",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonIntEnable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonIntEnable(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "11",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonIntEnable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonIntEnable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonIntEnable(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "11",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonIntEnable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonIntDisable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonIntDisable(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "12",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonIntDisable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonIntDisable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonIntDisable(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "12",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonIntDisable",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonIntClear",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonIntClear(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "13",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonIntClear",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ButtonIntClear",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void ButtonIntClear(uint8_t)",
+    "location": {
+      "column": "13",
+      "line": "13",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
+    },
+    "name": "ButtonIntClear",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_YSIZET_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\ysizet.h"
+    },
+    "name": "_YSIZET_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@277@macro@_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "16",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\ysizet.h"
+    },
+    "name": "_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@296@macro@_STD_USING_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STD_USING_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "17",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\ysizet.h"
+    },
+    "name": "_STD_USING_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@T@size_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "_Sizet",
+    "location": {
+      "column": "18",
+      "line": "18",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\ysizet.h"
+    },
+    "name": "size_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@359@macro@__DATA_PTR_MEM_HELPER1__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DATA_PTR_MEM_HELPER1__",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\ysizet.h"
+    },
+    "name": "__DATA_PTR_MEM_HELPER1__",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@T@__data_size_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned int",
+    "location": {
+      "column": "1",
+      "line": "23",
+      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\ysizet.h"
+    },
+    "name": "__data_size_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
     "ID": "c:stddef.h@100@macro@_STDDEF",
     "What": "MacroDef",
     "defdec": "Def",
@@ -21676,510 +22180,6 @@
     },
     "name": "max_align_t",
     "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverleds.h@34@macro@__DRIVERLEDS_H__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DRIVERLEDS_H__",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "__DRIVERLEDS_H__",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverleds.h@85@macro@LED1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED1",
-    "location": {
-      "column": "9",
-      "line": "6",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LED1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverleds.h@104@macro@LED2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED2",
-    "location": {
-      "column": "9",
-      "line": "7",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LED2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverleds.h@123@macro@LED3",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED3",
-    "location": {
-      "column": "9",
-      "line": "8",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LED3",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverleds.h@142@macro@LED4",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED4",
-    "location": {
-      "column": "9",
-      "line": "9",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LED4",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDInit(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "11",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDInit(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "11",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PWMLEDInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PWMLEDInit(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "12",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "PWMLEDInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PWMLEDInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void PWMLEDInit(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "12",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "PWMLEDInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDOn",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDOn(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "13",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDOn",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDOn",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDOn(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "13",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDOn",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDOff",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDOff(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "14",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDOff",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDOff",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDOff(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "14",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDOff",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDToggle",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDToggle(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "15",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDToggle",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDToggle",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDToggle(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "15",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDToggle",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDWrite",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDWrite(uint8_t, uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "16",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDWrite",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LEDWrite",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LEDWrite(uint8_t, uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "16",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverleds.h"
-    },
-    "name": "LEDWrite",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_YSIZET_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\ysizet.h"
-    },
-    "name": "_YSIZET_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@277@macro@_SIZE_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_SIZE_T",
-    "location": {
-      "column": "11",
-      "line": "16",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\ysizet.h"
-    },
-    "name": "_SIZE_T",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@296@macro@_STD_USING_SIZE_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STD_USING_SIZE_T",
-    "location": {
-      "column": "11",
-      "line": "17",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\ysizet.h"
-    },
-    "name": "_STD_USING_SIZE_T",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@T@size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "_Sizet",
-    "location": {
-      "column": "18",
-      "line": "18",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\ysizet.h"
-    },
-    "name": "size_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@359@macro@__DATA_PTR_MEM_HELPER1__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DATA_PTR_MEM_HELPER1__",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\ysizet.h"
-    },
-    "name": "__DATA_PTR_MEM_HELPER1__",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@T@__data_size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "1",
-      "line": "23",
-      "path": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\ysizet.h"
-    },
-    "name": "__data_size_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverbuttons.h@37@macro@__DRIVERBUTTONS_H__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DRIVERBUTTONS_H__",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "__DRIVERBUTTONS_H__",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverbuttons.h@91@macro@USW1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "USW1",
-    "location": {
-      "column": "9",
-      "line": "6",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "USW1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:driverbuttons.h@110@macro@USW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "USW2",
-    "location": {
-      "column": "9",
-      "line": "7",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "USW2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonInit(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "9",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonInit(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "9",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonRead",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t ButtonRead(uint8_t)",
-    "location": {
-      "column": "16",
-      "line": "10",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonRead",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonRead",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t ButtonRead(uint8_t)",
-    "location": {
-      "column": "16",
-      "line": "10",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonRead",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonIntEnable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonIntEnable(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "11",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonIntEnable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonIntEnable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonIntEnable(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "11",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonIntEnable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonIntDisable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonIntDisable(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "12",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonIntDisable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonIntDisable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonIntDisable(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "12",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonIntDisable",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonIntClear",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonIntClear(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "13",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonIntClear",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ButtonIntClear",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ButtonIntClear(uint8_t)",
-    "location": {
-      "column": "13",
-      "line": "13",
-      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\driverbuttons.h"
-    },
-    "name": "ButtonIntClear",
-    "origin": "user_include",
     "scope": null
   },
   {
@@ -22516,6 +22516,62 @@
     },
     "name": "__AEABI_PORTABILITY_INTERNAL_LEVEL",
     "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:system_tm4c1294.h@1166@macro@SYSTEM_TM4C1294_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSTEM_TM4C1294_H",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
+    },
+    "name": "SYSTEM_TM4C1294_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SystemCoreClock",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "SystemCoreClock",
+    "location": {
+      "column": "17",
+      "line": "35",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
+    },
+    "name": "SystemCoreClock",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemInit(void)",
+    "location": {
+      "column": "13",
+      "line": "47",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
+    },
+    "name": "SystemInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemCoreClockUpdate",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemCoreClockUpdate(void)",
+    "location": {
+      "column": "13",
+      "line": "58",
+      "path": "D:\\Facul\\Embarcados\\ELF74_RTOS\\Projects\\desafio\\src\\system_tm4c1294.h"
+    },
+    "name": "SystemCoreClockUpdate",
+    "origin": "user_include",
     "scope": null
   },
   {
