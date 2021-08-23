@@ -13,7 +13,7 @@ D:\Facul\Embarcados\ELF74_RTOS\Projects\desafio\src
 -I
 D:\Facul\Embarcados\ELF74_RTOS\Projects\desafio\..\drivers
 -I
-D:\Facul\Embarcados\ELF74\TivaWare_C_Series-2.1.4.178
+D:\Facul\Embarcados\ELF74_RTOS\Projects\desafio\..\..\TivaWare_C_Series-2.1.4.178
 -I
 D:\Facul\Embarcados\ELF74_RTOS\Projects\desafio\..\..\CMSIS-5.6.0\CMSIS\Core\Include
 -I
@@ -33,7 +33,7 @@ D:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
 -I
 D:\Facul\Embarcados\ELF74_RTOS\Projects\drivers
 -I
-D:\Facul\Embarcados\ELF74\TivaWare_C_Series-2.1.4.178
+D:\Facul\Embarcados\ELF74_RTOS\TivaWare_C_Series-2.1.4.178
 -I
 D:\Facul\Embarcados\ELF74_RTOS\CMSIS-5.6.0\CMSIS\Core\Include
 -I

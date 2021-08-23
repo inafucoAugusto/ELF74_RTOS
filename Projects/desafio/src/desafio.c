@@ -53,7 +53,6 @@ void thread_led(void *arg){
 }
 
 void thread_throw_flag(void *arg){
-  uint8_t state = 0;
   while(1){
     osMutexAcquire(mutex_id, osWaitForever);
     osThreadFlagsSet(thread1_id, 0x0001);
@@ -72,37 +71,73 @@ void thread_control_led(void *arg){
 
     if(taget_led == 1){
       if(led1.duty_cicle == 10){
+        led1.duty_cicle = 0;
+      }
+      else if(led1.duty_cicle == 0){
         led1.duty_cicle = 1;
       }
+      else if(led1.duty_cicle == 1){
+        led1.duty_cicle = 2;
+      }
+      else if(led1.duty_cicle == 2){
+        led1.duty_cicle = 5;
+      }
       else{
-        led1.duty_cicle = led1.duty_cicle + 1;
+        led1.duty_cicle = 10;
       }
     }
 
     else if(taget_led == 2){
       if(led2.duty_cicle == 10){
+        led2.duty_cicle = 0;
+      }
+      else if(led2.duty_cicle == 0){
         led2.duty_cicle = 1;
       }
+      else if(led2.duty_cicle == 1){
+        led2.duty_cicle = 2;
+      }
+      else if(led2.duty_cicle == 2){
+        led2.duty_cicle = 5;
+      }
       else{
-        led2.duty_cicle = led2.duty_cicle + 1;
+        led2.duty_cicle = 10;
       }
     }
 
     else if(taget_led == 3){
       if(led3.duty_cicle == 10){
+        led3.duty_cicle = 0;
+      }
+      else if(led3.duty_cicle == 0){
         led3.duty_cicle = 1;
       }
+      else if(led3.duty_cicle == 1){
+        led3.duty_cicle = 2;
+      }
+      else if(led3.duty_cicle == 2){
+        led3.duty_cicle = 5;
+      }
       else{
-        led3.duty_cicle = led3.duty_cicle + 1;
+        led3.duty_cicle = 10;
       }
     }
 
     else if(taget_led == 4){
       if(led4.duty_cicle == 10){
+        led4.duty_cicle = 0;
+      }
+      else if(led4.duty_cicle == 0){
         led4.duty_cicle = 1;
       }
+      else if(led4.duty_cicle == 1){
+        led4.duty_cicle = 2;
+      }
+      else if(led4.duty_cicle == 2){
+        led4.duty_cicle = 5;
+      }
       else{
-        led4.duty_cicle = led4.duty_cicle + 1;
+        led4.duty_cicle = 10;
       }
     }
     osMutexRelease(mutex_id);
@@ -127,7 +162,6 @@ void thread_block(void *arg){
 }
 
 void thread_in_led_selection(void *arg){
-  uint8_t aux = 1;
   while(1){
     osThreadFlagsWait(0x0001, osFlagsWaitAny, osWaitForever);
     osMutexAcquire(mutex_id, osWaitForever);
@@ -155,10 +189,10 @@ void main(void){
   led3.led = LED3;
   led4.led = LED4;
 
-  led1.duty_cicle = 1;
-  led2.duty_cicle = 3;
-  led3.duty_cicle = 5;
-  led4.duty_cicle = 7;
+  led1.duty_cicle = 10;
+  led2.duty_cicle = 10;
+  led3.duty_cicle = 10;
+  led4.duty_cicle = 10;
 
   led1.thread_id = 0x0001;
   led2.thread_id = 0x0002;
