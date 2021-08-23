@@ -1,0 +1,22 @@
+# ninja log v5
+64	484	6514258300000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/driverbuttons.xcl	bfcdc4b79cd8ee0
+0	492	6514258300000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/desafio.xcl	bd2d29f76bd17ae4
+68	530	6514258300000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/RTX_Config.xcl	f9522f48e7086135
+69	537	6514258300000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/rtx_lib.xcl	94cc40abde0481ca
+497	583	6514258308308300	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/desafio.pbi	be58e078e6fe07c5
+490	611	6514258300000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/system_TM4C1294_TW.xcl	3852e054a01d0d22
+536	630	6514258300000000	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/driverleds.xcl	93286a2ed891bed1
+635	820	6514258310674402	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/driverbuttons.pbi	3457f9021c073bfc
+542	855	6514258311026182	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/RTX_Config.pbi	1c37dcbe91776001
+584	891	6514258311355307	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/rtx_lib.pbi	2d79ba250919d06d
+859	904	6514258311515169	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/projeto_final_part0.pbi	be1fdffc4f2125a3
+615	908	6514258311544805	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/system_TM4C1294_TW.pbi	fa08f512f879da83
+823	927	6514258311754495	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/driverleds.pbi	979d99b4cfa99623
+910	946	6514258311933757	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/projeto_final_part2.pbi	ac5557920d9d9cd3
+929	948	6514258311973654	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/projeto_final_part1.pbi	8bd646a66c57a3f0
+950	995	6514258312432434	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/projeto_final.pbd	b535500497de7af9
+997	2384	6514258326162726	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/projeto_final.pbw	8d4fe254bc32c550
+1	34	6514266031268910	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/desafio.pbi	be58e078e6fe07c5
+37	49	6514266031428606	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/projeto_final_part0.pbi	be1fdffc4f2125a3
+53	92	6514266031857442	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/projeto_final.pbd	b535500497de7af9
+94	775	6514266038535999	D:/Facul/Embarcados/ELF74_RTOS/Projects/projeto_final/Debug/BrowseInfo/projeto_final.pbw	8d4fe254bc32c550
