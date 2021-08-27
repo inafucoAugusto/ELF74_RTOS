@@ -11,7 +11,6 @@
 #include "utils/uartstdio.h"
 #include "system_TM4C1294.h"
 
-
 osThreadId_t thread1_id, thread2_id;
 osMutexId_t uart_id;
 
@@ -23,9 +22,6 @@ const osThreadAttr_t thread2_attr = {
   .name = "Thread 2"
 };
 
-
-//----------
-// UART definitions
 extern void UARTStdioIntHandler(void);
 
 void UARTInit(void){
@@ -49,8 +45,6 @@ void UARTInit(void){
 void UART0_Handler(void){
   UARTStdioIntHandler();
 } // UART0_Handler
-//----------
-
 
 void myKernelInfo(void){
   osVersion_t osv;
@@ -123,7 +117,6 @@ void myThreadInfo(void){
   UARTFlushTx(false);
 } // myThreadInfo
 
-
 // osRtxIdleThread
 __NO_RETURN void osRtxIdleThread(void *argument){
   (void)argument;
@@ -135,8 +128,6 @@ __NO_RETURN void osRtxIdleThread(void *argument){
 } // osRtxIdleThread
 
 // osRtxTimerThread
-
-
 
 __NO_RETURN void thread1(void *arg){
   uint32_t count = 0;

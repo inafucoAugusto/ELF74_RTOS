@@ -1,183 +1,169 @@
-#include "system_tm4c1294.h" // CMSIS-Core
-#include "driverleds.h" // device drivers
+#include <stdbool.h>
+#include <stdio.h>
 #include "cmsis_os2.h" // CMSIS-RTOS
-#include "driverbuttons.h"
 
-osThreadId_t thread1_id, thread2_id, thread3_id, thread4_id, throw_flag, control_led, block_control, in_led_selection;
-uint8_t taget_led = 1;
-osMutexId_t mutex_id;
-uint32_t total_cicle = 10;
-uint8_t bla = 0;
+#include "inc/hw_memmap.h"
+#include "driverlib/gpio.h"
+#include "driverlib/uart.h"
+#include "driverlib/sysctl.h"
+#include "driverlib/pin_map.h"
+#include "utils/uartstdio.h"
+#include "system_TM4C1294.h"
+
+#define MSG_SIZE 30
+
+// threads relacionadas a comunicação serial
+osThreadId_t thread_read_serial_id, thread_write_serial_id;
+
+// thread para controle dos elevadores
+osThreadId_t thread_elevador;
+
+// distancia em que o elevador deve estar 
+int dist_andar[16] = {0, 5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000, 45000, 50000, 55000, 60000, 65000, 70000, 75000};
+
+// fila de mensagens para cada elevador
+static osMessageQueueId_t msgQueue1_s, msgQueue2_s, msgQueue3_s;
+static osMessageQueueId_t msgQueue1_d, msgQueue2_d, msgQueue3_d;
+static osMessageQueueId_t queue_destiny_e, queue_destiny_c, queue_destiny_d;
 
 typedef struct{
-  uint8_t led;
-  int duty_cicle;
-  int thread_id;
-}LED;
+  char elevador;
+  int andar;
+  int current_dist;
+  char estado[30];
+  osMessageQueueId_t msgQueue;
+  char destiny[30];
+}Elevador;
 
-LED led1, led2, led3, led4;
+Elevador elevador_e, elevador_c, elevador_d;
 
-void GPIOJ_Handler(void){
-  if(ButtonRead(USW1) == 0){
-    ButtonIntClear(USW1);
-    ButtonIntClear(USW2);
-    osThreadFlagsSet(control_led, 0x0001);
-  }
-  if(ButtonRead(USW2) == 0){
-    ButtonIntClear(USW1);
-    ButtonIntClear(USW2);
-    osThreadFlagsSet(in_led_selection, 0x0001);
-  }
-}
-
-const osMutexAttr_t Phases_Mutex_attr = {
-  "PhasesMutex",                            // human readable mutex name
-  osMutexRecursive | osMutexPrioInherit,    // attr_bits
-  NULL,                                     // memory for control block   
-  0U                                        // size for control block
-  };
-
-void thread_led(void *arg){
-  uint8_t state = 0;
-  LED *target_led = arg;
+void read_serial(void *arg){
+  char msg[MSG_SIZE];
+  int a;
   while(1){
-    osThreadFlagsWait((*target_led).thread_id, osFlagsWaitAny, osWaitForever);
-    state ^= (*target_led).led;
-    LEDWrite((*target_led).led, state);
-    osDelay((*target_led).duty_cicle);
+    a = UARTgets(msg, MSG_SIZE);
+    if(msg != ""){
+      if(a == 2){}
 
-    state ^= (*target_led).led;
-    LEDWrite((*target_led).led, state);
-    osDelay(10 - (*target_led).duty_cicle);
+      else if(a == 3){}
+
+      else if(a == 4){
+        // elevador 1
+        if(msg[0] == 'e'){
+          if(msg[4] == 'd'){
+            osMessageQueuePut(msgQueue1_d, msg, NULL, osWaitForever);
+          }
+          else{
+            osMessageQueuePut(msgQueue1_s, msg, NULL, osWaitForever);
+          }
+        }
+
+        //elevador 2
+        if(msg[0] == 'c'){
+          if(msg[4] == 'd'){
+            osMessageQueuePut(msgQueue2_d, msg, NULL, osWaitForever);
+          }
+          else{
+            osMessageQueuePut(msgQueue2_s, msg, NULL, osWaitForever);
+          }
+        }
+
+        //elevador 3
+        if(msg[0] == 'd'){
+          if(msg[4] == 'd'){
+            osMessageQueuePut(msgQueue3_d, msg, NULL, osWaitForever);
+          }
+          else{
+            osMessageQueuePut(msgQueue3_s, msg, NULL, osWaitForever);
+          }
+        }
+      }
+    }
   }
 }
 
-void thread_throw_flag(void *arg){
+void write_serial(void *arg){
+  char msg[MSG_SIZE];
   while(1){
-    osMutexAcquire(mutex_id, osWaitForever);
-    osThreadFlagsSet(thread1_id, 0x0001);
-    osThreadFlagsSet(thread2_id, 0x0002);
-    osThreadFlagsSet(thread3_id, 0x0003);
-    osThreadFlagsSet(thread4_id, 0x0004);
-    osMutexRelease(mutex_id);
+    osMessageQueueGet(msgQueue1_s, msg, NULL, osWaitForever);
+    UARTprintf("%s\n", msg);
   }
 }
 
-void thread_control_led(void *arg){
-//  LED led_position[3] = {led1, led2, led3, led4}
-  while(1){
-    osThreadFlagsWait(0x0001, osFlagsWaitAny, osWaitForever);
-    osMutexAcquire(mutex_id, osWaitForever);
-
-    if(taget_led == 1){
-      if(led1.duty_cicle == 10){
-        led1.duty_cicle = 1;
-      }
-      else{
-        led1.duty_cicle = led1.duty_cicle + 1;
-      }
-    }
-
-    else if(taget_led == 2){
-      if(led2.duty_cicle == 10){
-        led2.duty_cicle = 1;
-      }
-      else{
-        led2.duty_cicle = led2.duty_cicle + 1;
-      }
-    }
-
-    else if(taget_led == 3){
-      if(led3.duty_cicle == 10){
-        led3.duty_cicle = 1;
-      }
-      else{
-        led3.duty_cicle = led3.duty_cicle + 1;
-      }
-    }
-
-    else if(taget_led == 4){
-      if(led4.duty_cicle == 10){
-        led4.duty_cicle = 1;
-      }
-      else{
-        led4.duty_cicle = led4.duty_cicle + 1;
-      }
-    }
-    osMutexRelease(mutex_id);
-  }
-}
-
-void thread_block(void *arg){
-  uint8_t aux = 1;
+// threads para consumir mensagens dos botes pressionados dentro 
+void set_elevator_destiny1(void *arg){
   while(1){
     osThreadFlagsWait(0x0001, osFlagsWaitAny, osWaitForever);
-    if(aux){
-      osMutexAcquire(mutex_id, osWaitForever);
-      aux = !aux;
-      osDelay(10);
-      osThreadFlagsSet(control_led, 0x0001);
-    }
-    else{
-      osMutexRelease(mutex_id);
-      aux = !aux;
-    }
+    osMessageQueueGet(queue_destiny_e, elevador_e.destiny, NULL, osWaitForever);
+    //UARTprintf("%s\n", msg);
   }
 }
 
-void thread_in_led_selection(void *arg){
+void set_elevator_destiny2(void *arg){
   while(1){
     osThreadFlagsWait(0x0001, osFlagsWaitAny, osWaitForever);
-    osMutexAcquire(mutex_id, osWaitForever);
-    if(taget_led < 4){
-      taget_led = taget_led + 1;
-    }
-    else{
-      taget_led = 1;
-    }
-    osDelay(10);
-    osMutexRelease(mutex_id);
+    osMessageQueueGet(queue_destiny_c, elevador_c.destiny, NULL, osWaitForever);
+    //UARTprintf("%s\n", msg);
   }
 }
+
+void set_elevator_destiny3(void *arg){
+  while(1){
+    osThreadFlagsWait(0x0001, osFlagsWaitAny, osWaitForever);
+    osMessageQueueGet(queue_destiny_d, elevador_d.destiny, NULL, osWaitForever);
+    //UARTprintf("%s\n", msg);
+  }
+}
+
+extern void UARTStdioIntHandler(void);
+
+void UARTInit(void){
+  // Enable UART0
+  SysCtlPeripheralEnable(SYSCTL_PERIPH_UART0);
+  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_UART0));
+
+  // Initialize the UART for console I/O.
+  UARTStdioConfig(0, 115200, SystemCoreClock);
+
+  // Enable the GPIO Peripheral used by the UART.
+  SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOA);
+  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOA));
+
+  // Configure GPIO Pins for UART mode.
+  GPIOPinConfigure(GPIO_PA0_U0RX);
+  GPIOPinConfigure(GPIO_PA1_U0TX);
+  GPIOPinTypeUART(GPIO_PORTA_BASE, GPIO_PIN_0 | GPIO_PIN_1);
+} // UARTInit
+
+void UART0_Handler(void){
+  UARTStdioIntHandler();
+} // UART0_Handler
+
 
 void main(void){
-  ButtonInit(USW1);
-  ButtonIntEnable(USW1);
-  ButtonInit(USW2);
-  ButtonIntEnable(USW2);
-  
-  LEDInit(LED1 | LED2 | LED3 | LED4);
-  
-  led1.led = LED1;
-  led2.led = LED2;
-  led3.led = LED3;
-  led4.led = LED4;
-
-  led1.duty_cicle = 1;
-  led2.duty_cicle = 3;
-  led3.duty_cicle = 5;
-  led4.duty_cicle = 7;
-
-  led1.thread_id = 0x0001;
-  led2.thread_id = 0x0002;
-  led3.thread_id = 0x0003;
-  led4.thread_id = 0x0004;
-
+  // inicializacao do sistema
   osKernelInitialize();
-
-  thread1_id = osThreadNew(thread_led, &led1, NULL);
-  thread2_id = osThreadNew(thread_led, &led2, NULL);
-  thread3_id = osThreadNew(thread_led, &led3, NULL);
-  thread4_id = osThreadNew(thread_led, &led4, NULL);
-  throw_flag = osThreadNew(thread_throw_flag, NULL, NULL);
-  control_led = osThreadNew(thread_control_led, NULL, NULL);
-  in_led_selection = osThreadNew(thread_in_led_selection, NULL, NULL);
-  block_control = osThreadNew(thread_block, NULL, NULL);
   
-  mutex_id = osMutexNew(&Phases_Mutex_attr);
-
+  // inicializacao das queues
+  UARTInit();
+  msgQueue1_s = osMessageQueueNew(60U, sizeof(char[MSG_SIZE]), NULL);
+  msgQueue2_s = osMessageQueueNew(60U, sizeof(char[MSG_SIZE]), NULL);
+  msgQueue3_s = osMessageQueueNew(60U, sizeof(char[MSG_SIZE]), NULL);
+  msgQueue1_d = osMessageQueueNew(60U, sizeof(char[MSG_SIZE]), NULL);
+  msgQueue2_d = osMessageQueueNew(60U, sizeof(char[MSG_SIZE]), NULL);
+  msgQueue3_d = osMessageQueueNew(60U, sizeof(char[MSG_SIZE]), NULL);
+  
+  queue_destiny_e = osMessageQueueNew(60U, sizeof(char[MSG_SIZE]), NULL);
+  queue_destiny_c = osMessageQueueNew(60U, sizeof(char[MSG_SIZE]), NULL);
+  queue_destiny_d = osMessageQueueNew(60U, sizeof(char[MSG_SIZE]), NULL);
+  
+  // inicializacao das threads
+  thread_read_serial_id = osThreadNew(read_serial, NULL, NULL);
+  thread_write_serial_id = osThreadNew(write_serial, NULL, NULL);
+  
   if(osKernelGetState() == osKernelReady)
     osKernelStart();
 
   while(1){};
+  
 } // main

@@ -3,6 +3,8 @@
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
+-include
+D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\..\..\Projects\UART_inst\src\UART_Config.h
 -MD
 -MF
 D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\Debug\BrowseInfo\RTX_Config.pbi.dep
@@ -13,7 +15,7 @@ D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\src
 -I
 D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\..\drivers
 -I
-D:\Facul\Embarcados\ELF74\TivaWare_C_Series-2.1.4.178
+D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\..\..\TivaWare_C_Series-2.1.4.178
 -I
 D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\..\..\CMSIS-5.6.0\CMSIS\Core\Include
 -I
@@ -33,7 +35,7 @@ D:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c
 -I
 D:\Facul\Embarcados\ELF74_RTOS\Projects\drivers
 -I
-D:\Facul\Embarcados\ELF74\TivaWare_C_Series-2.1.4.178
+D:\Facul\Embarcados\ELF74_RTOS\TivaWare_C_Series-2.1.4.178
 -I
 D:\Facul\Embarcados\ELF74_RTOS\CMSIS-5.6.0\CMSIS\Core\Include
 -I
@@ -331,6 +333,8 @@ D:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\CMSIS\DSP\Include
 -D__EDG_FLOAT80_ENABLING_POSSIBLE=0
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -D__EDG_INT128_EXTENSIONS_ALLOWED=0
+-DPART_TM4C1294NCPDT=1
+-DUART_BUFFERED=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME="D:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\inc\c\DLib_Config_Normal.h"
 -D_DLIB_CONFIG_FILE_STRING="D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V9.10.2.313/W64 for ARM"

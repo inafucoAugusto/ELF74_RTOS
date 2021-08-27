@@ -1,5 +1,6 @@
 D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\Debug\BrowseInfo\rtx_lib.pbi: \
   D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\src\rtx_lib.c \
+  D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\..\..\Projects\UART_inst\src\UART_Config.h \
   D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\..\..\CMSIS-5.6.0\CMSIS\Core\Include\cmsis_compiler.h \
   D:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
   D:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \

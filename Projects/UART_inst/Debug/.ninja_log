@@ -1,0 +1,12 @@
+# ninja log v5
+0	635	6515909949007136	D:/Facul/Embarcados/ELF74_RTOS/Projects/UART_inst/ewarm/Obj/startup_TM4C1294.o	c5b297c87d3168ba
+630	1303	6515909958015534	D:/Facul/Embarcados/ELF74_RTOS/Projects/UART_inst/ewarm/Obj/rtx_lib.o	e1c2dea38ad84e86
+287	1339	6515909958364351	D:/Facul/Embarcados/ELF74_RTOS/Projects/UART_inst/ewarm/Obj/RTX_Config.o	73b8945fe2e8252b
+637	1384	6515909958843078	D:/Facul/Embarcados/ELF74_RTOS/Projects/UART_inst/ewarm/Obj/system_TM4C1294_TW.o	49eeda3aefb18e14
+631	1477	6515909960020693	D:/Facul/Embarcados/ELF74_RTOS/Projects/UART_inst/ewarm/Obj/UART_inst.o	4dd86d5fc3c34740
+1311	1644	6515909961649703	D:/Facul/Embarcados/ELF74_RTOS/Projects/UART_inst/ewarm/Obj/uartstdio.o	1a4a7f45eb692c02
+1652	2254	6515909967781965	D:/Facul/Embarcados/ELF74_RTOS/Projects/UART_inst/ewarm/Exe/UART_inst.out	aaebf72f6fe15891
+2261	2372	6515909969043072	D:/Facul/Embarcados/ELF74_RTOS/Projects/UART_inst/ewarm/Exe/UART_inst.bin	a14b9c68bacbd586
+8	256	6515950936636861	D:/Facul/Embarcados/ELF74_RTOS/Projects/UART_inst/ewarm/Obj/UART_inst.o	4dd86d5fc3c34740
+262	430	6515950938362804	D:/Facul/Embarcados/ELF74_RTOS/Projects/UART_inst/ewarm/Exe/UART_inst.out	aaebf72f6fe15891
+439	450	6515950938642066	D:/Facul/Embarcados/ELF74_RTOS/Projects/UART_inst/ewarm/Exe/UART_inst.bin	a14b9c68bacbd586

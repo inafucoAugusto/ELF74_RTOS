@@ -1,5 +1,6 @@
 D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\Debug\BrowseInfo\system_TM4C1294_TW.pbi: \
   D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\src\system_TM4C1294_TW.c \
+  D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\..\..\Projects\UART_inst\src\UART_Config.h \
   D:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
   D:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
   D:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
@@ -14,4 +15,4 @@ D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\Debug\BrowseInfo\system_TM
   D:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iccarm_builtin.h \
   D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\src\system_TM4C1294.h \
   D:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdbool.h \
-  D:\Facul\Embarcados\ELF74\TivaWare_C_Series-2.1.4.178\driverlib\sysctl.h
+  D:\Facul\Embarcados\ELF74_RTOS\Projects\projeto_final\..\..\TivaWare_C_Series-2.1.4.178\driverlib\sysctl.h

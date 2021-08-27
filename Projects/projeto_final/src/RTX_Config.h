@@ -34,7 +34,12 @@
 #include  RTE_RTX_CONFIG_H
 #endif
 #endif
- 
+
+
+#define OS_IDLE_THREAD_NAME "Idle Thread"
+#define OS_TIMER_THREAD_NAME "Timer Thread"
+
+
 //-------- <<< Use Configuration Wizard in Context Menu >>> --------------------
  
 // <h>System Configuration
@@ -107,7 +112,7 @@
 //     <i> Defines maximum number of user threads with default stack size.
 //     <i> Applies to user threads with zero stack size specified.
 #ifndef OS_THREAD_DEF_STACK_NUM
-#define OS_THREAD_DEF_STACK_NUM     0
+#define OS_THREAD_DEF_STACK_NUM     2
 #endif
  
 //     <o>Total Stack size [bytes] for user Threads with user-provided Stack size <0-1073741824:8>
@@ -274,7 +279,7 @@
 //     <i> Defines maximum number of objects that can be active at the same time.
 //     <i> Applies to objects with system provided memory for control blocks.
 #ifndef OS_SEMAPHORE_NUM
-#define OS_SEMAPHORE_NUM            2
+#define OS_SEMAPHORE_NUM            1
 #endif
  
 //   </e>
