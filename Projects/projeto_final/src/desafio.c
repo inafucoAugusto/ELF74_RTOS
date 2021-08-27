@@ -28,11 +28,11 @@ static osMessageQueueId_t queue_destiny_e, queue_destiny_c, queue_destiny_d;
 
 typedef struct{
   char elevador;
-  int andar;
-  int current_dist;
-  char estado[30];
+  int current_andar;
+  int estado;                           //1 subindo -1 descendo
   osMessageQueueId_t msgQueue;
   char destiny[30];
+  int destiny_andar;
 }Elevador;
 
 Elevador elevador_e, elevador_c, elevador_d;
@@ -115,6 +115,41 @@ void set_elevator_destiny3(void *arg){
   }
 }
 
+// Elevador em si
+void elevador_control(void *arg){
+  Elevador *target_elevador = arg;
+  while(1){
+    osThreadFlagsWait(0x0001, osFlagsWaitAny, osWaitForever);
+    osMessageQueueGet(queue_destiny_c, elevador_c.destiny, NULL, osWaitForever);
+    //UARTprintf("%s\n", msg);
+
+    //elevador vaia te o andar onde eh chamado; se estiver acima ele desce, se nao, sobe
+    if((*target_elevador).current_andar < (*target_elevador).destiny_andar){
+      //sobe
+      // entre em uma thread que fica dando pooling e comparando ate quando o andar vai estar com o mesmo valor do target andar
+      // quando chegar no andar volta para a thread do elevador
+    }
+    else if((*target_elevador).current_andar > (*target_elevador).destiny_andar){
+      // desce
+      // entre em uma thread que fica dando pooling e comparando ate quando o andar vai estar com o mesmo valor do target andar
+      // quando chegar no andar volta para a thread do elevador
+    }
+
+    //espera input do botao -> set_elevator_destiny1
+    // abre a porta e espera o input do usuario
+
+    //vai ate o andar desejado
+    // abre a porta, delay, fecha porta
+
+    // muda o estado do elevador
+    // se antes era 1 agr vai pra -1 vice e versa
+
+    //reinicia o ciclo
+  }
+}
+
+
+// UART
 extern void UARTStdioIntHandler(void);
 
 void UARTInit(void){
