@@ -24,6 +24,12 @@ Andre Schneider de Oliveira
 - Após parar em um andar o elevador deve permanecer com a porta fechada por pelo menos 2 segundos antes de abrí-la.
 - Ao chegar no andar de destino o elevador deverá ficar com a porta aberta por pelo menos 10 segundos.
 - O elevador deve ficar parado, último andar de destino, até que hava uma nova requisição.
+- As luzes internas (botões) do elevador devem ficar desligadas enquanto não forem pressionadas
+- Ao se pressionar um botão sua luz deve acender.
+- A luz, uma vez acesa, só deve voltar a estar deligada quando sua funcionalidade chegar ao fim; chegar no destino final, por exemplo.
+- O elevador deverá funcionar de forma alternada, isto é, uma vez realizando trajetórias de subidas e na sequência de descida.
+- Se o elevador for realizar uma trajetória de descida o mesmo deve começar do andar mais alto requisitado.
+- Se o elevador for realizar uma trajetória de subida o mesmo deve começar do andar mais baixo requisitado.
 
 
 ### Requisitos Não Funcionais
